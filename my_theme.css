@@ -1,0 +1,161 @@
+/**
+ * Minimal Dark Theme for Reveal.js
+ * Author: Your Name
+ * Designed for scientific presentations
+ *
+ * - Dark background, light text
+ * - Simple sans-serif typography
+ * - Subtle accent color for links and highlights
+ * - Generous spacing, no text-shadows
+ * - All text left-aligned
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,700&display=swap');
+
+ :root {
+   /* Colors */
+   --bg: #1a1a1a;
+   --fg: #e0e0e0;
+   --accent: #4da6ff;
+   --code-bg: #2a2a2a;
+   --border: #333;
+ 
+   /* Typography */
+   --font-main: 'Ubuntu', sans-serif;
+   --font-mono: 'Ubuntu Mono', monospace;
+   --size-base: 20px;
+   --heading-line-height: 1.2;
+ 
+   /* Spacing */
+   --space-block: 1.2em;
+   --space-heading: 0.5em;
+ }
+ 
+ .reveal {
+   background: var(--bg);
+   color: var(--fg);
+   font-family: var(--font-main);
+   font-size: var(--size-base);
+   line-height: 1.4;
+ }
+ 
+ /* Force left alignment */
+ .reveal .slides section,
+ .reveal .slides section > section,
+ .reveal p,
+ .reveal h1,
+ .reveal h2,
+ .reveal h3,
+ .reveal h4,
+ .reveal ul,
+ .reveal ol,
+ .reveal blockquote,
+ .reveal pre {
+   text-align: left;
+ }
+ 
+ /* Headings */
+ .reveal h1,
+ .reveal h2,
+ .reveal h3,
+ .reveal h4 {
+   margin-top: 0;
+   margin-bottom: var(--space-heading);
+   color: var(--fg);
+   line-height: var(--heading-line-height);
+   font-weight: 700;
+   text-transform: none;
+   text-shadow: none;
+ }
+
+
+ 
+ .reveal h1 { font-size: 2.5em; }
+ .reveal h2 { font-size: 1.8em; }
+ .reveal h3 { font-size: 1.4em; }
+ .reveal h4 { font-size: 1.1em; }
+ 
+ /* Paragraphs and blocks */
+ .reveal p,
+ .reveal ul,
+ .reveal ol,
+ .reveal blockquote,
+ .reveal pre {
+   margin: var(--space-block) 0;
+ }
+ 
+ /* Links */
+ .reveal a {
+   color: var(--accent);
+   text-decoration: none;
+   border-bottom: 1px solid var(--accent);
+   transition: color 0.2s, border-color 0.2s;
+ }
+ .reveal a:hover {
+   color: #fff;
+   border-color: #fff;
+ }
+ 
+ /* Code */
+ .reveal pre {
+   background: var(--code-bg);
+   padding: 0.8em;
+   border-radius: 4px;
+   overflow-x: auto;
+   font-family: var(--font-mono);
+   font-size: 0.9em;
+ }
+ .reveal code {
+   background: var(--code-bg);
+   padding: 0.2em 0.4em;
+   border-radius: 3px;
+   font-family: var(--font-mono);
+   font-size: 0.9em;
+ }
+ 
+ /* Lists */
+ .reveal ul,
+ .reveal ol {
+   padding-left: 1.2em;
+ }
+ .reveal ul li,
+ .reveal ol li {
+   margin-bottom: 0.5em;
+ }
+ 
+ /* Tables */
+ .reveal table {
+   border-collapse: collapse;
+   margin: var(--space-block) auto;
+ }
+ .reveal th,
+ .reveal td {
+   padding: 0.4em 0.8em;
+   border: 1px solid var(--border);
+ }
+ .reveal th {
+   background: #2a2a2a;
+ }
+ 
+ /* Media */
+ .reveal img,
+ .reveal video,
+ .reveal iframe {
+   max-width: 90%;
+   max-height: 90%;
+   margin: var(--space-block) 0;
+ }
+ 
+ /* Controls & progress */
+ .reveal .controls,
+ .reveal .progress {
+   color: var(--accent);
+ }
+ 
+ /* Print mode */
+ @media print {
+   .reveal {
+     background: #fff !important;
+     color: #000 !important;
+   }
+ }

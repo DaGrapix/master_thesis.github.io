@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal JS presentation</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
+  
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/black.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="my_theme.css">
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h1>Vi-Transformers for Physical Field Prediction</h1>
+<h2>Anthony Kalaydjian</h2>
+<!-- [Safran Tech](https://www.safran-group.com/fr/groupe/innovation/safran-tech) - [EPFL](https://www.epfl.ch/fr/) -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+    <img src="assets/logos/safran.svg" alt="Safran Logo" style="height: 50px;">
+    <img src="assets/logos/epfl.svg" alt="EPFL Logo" style="height: 50px;">
+</div>
+<div style="position: absolute; bottom: 1em; right: 1em; font-size: 0.9em; color: #666;">
+    25 April 2025
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Physics mesh regression problem</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID standard</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID benchmark (Datasets)</h2>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Simulation code</th>
+<th>Model</th>
+<th>Nb samples</th>
+<th>Volume Zenodo</th>
+<th>Volume HF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tensile2d</code></td>
+<td>Z-set</td>
+<td>2D quasistatic non-linear structural mechanics, small deformations, non-linear constitutive law</td>
+<td>702</td>
+<td>290 MB</td>
+<td>1.0 GB</td>
+</tr>
+<tr>
+<td><code>2D_MultiScHypEl</code></td>
+<td>DOLFINx</td>
+<td>2D quasistatic non-linear structural mechanics, finite elasticity</td>
+<td>1,140</td>
+<td>350 MB</td>
+<td>1.1 GB</td>
+</tr>
+<tr>
+<td><code>2D_ElPlDynamics</code></td>
+<td>OpenRadioss</td>
+<td>2D dynamic non-linear structural mechanics, non-linear non-local constitutive law</td>
+<td>1,018</td>
+<td>5.7 GB</td>
+<td>18 GB</td>
+</tr>
+<tr>
+<td><code>Rotor37</code></td>
+<td>elsA</td>
+<td>3D Navier-Stokes (RANS)</td>
+<td>1,200</td>
+<td>3.3 GB</td>
+<td>13 GB</td>
+</tr>
+<tr>
+<td><code>2D_profile</code></td>
+<td>elsA</td>
+<td>2D Navier-Stokes (RANS)</td>
+<td>400</td>
+<td>660 MB</td>
+<td>2.9 GB</td>
+</tr>
+<tr>
+<td><code>VKI-LS59</code></td>
+<td>BROADCAST</td>
+<td>2D Navier-Stokes (RANS)</td>
+<td>839</td>
+<td>1.9 GB</td>
+<td>7.4 GB</td>
+</tr>
+<tr>
+<td><code>AirfRANS original</code></td>
+<td>OpenFOAM</td>
+<td>2D Navier-Stokes (RANS)</td>
+<td>1,000</td>
+<td>9.3 GB</td>
+<td>24 GB</td>
+</tr>
+<tr>
+<td><code>AirfRANS clipped</code></td>
+<td>OpenFOAM</td>
+<td>2D Navier-Stokes (RANS)</td>
+<td>1,000</td>
+<td>9.7 GB</td>
+<td>26 GB</td>
+</tr>
+<tr>
+<td><code>AirfRANS remeshed</code></td>
+<td>OpenFOAM</td>
+<td>2D Navier-Stokes (RANS)</td>
+<td>1,000</td>
+<td>520 MB</td>
+<td>2.1 GB</td>
+</tr>
+</tbody>
+</table>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2 style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  z-index: 9999;
+">
+  PLAID benchmark (Problems of interest) 1/2
+</h2>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Mesh (mean nodes)</th>
+<th>Inputs</th>
+<th>Outputs</th>
+<th>Splits (train/test)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tensile2d</code></td>
+<td>tri (9,428)</td>
+<td>mesh, 6 scalars</td>
+<td>4 scalars, 6 fields</td>
+<td>500 / 200</td>
+</tr>
+<tr>
+<td><code>2D_MultiScHypEl</code></td>
+<td>tri (5,692)</td>
+<td>mesh, 3 scalars</td>
+<td>1 scalar, 7 fields</td>
+<td>764 / 376</td>
+</tr>
+<tr>
+<td><code>Rotor37</code></td>
+<td>quad (29,773*)</td>
+<td>mesh, 2 scalars</td>
+<td>4 scalars, 3 fields</td>
+<td>1,000 / 200</td>
+</tr>
+<tr>
+<td><code>2D_profile</code></td>
+<td>tri (37,042)</td>
+<td>mesh</td>
+<td>4 fields</td>
+<td>300 / 100</td>
+</tr>
+<tr>
+<td><code>VKI-LS59</code></td>
+<td>quad (36,421*)</td>
+<td>mesh, 2 scalars</td>
+<td>6 scalars, 7 fields</td>
+<td>671 / 168</td>
+</tr>
+</tbody>
+</table>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID benchmark (Problems of interest) 2/2</h2>
+<img src="assets/samples.png" alt="Sample Image" style="width: 100%; height: auto;">
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID benchmark evaluation metrics</h2>
+<p>$
+\begin{equation}
+x = 5
+\end{equation}
+$</p>
+<p>$$
+\mathrm{RRMSE}_f(\mathbf{f})
+$$</p>
+<p>Here’s the reference version: <code>$ \mathrm{RRMSE}_f(\mathbf{f}_{\rm ref}) $</code></p>
+<p>$$
+\begin{equation}
+\mathrm{RRMSE}<em>f(\mathbf{f}</em>{\rm ref}, \mathbf{f}<em>{\rm pred}) = \left( \frac{1}{n</em>\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N<sup>i}|\mathbf{f}</sup>i_{\rm ref} - \mathbf{f}^i_{\rm pred}|<em>2<sup>2}{|\mathbf{f}</sup>i</em>{\rm ref}|_\infty^2} \right)^{1/2}
+\end{equation}
+$$</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Vi-Transformers</h2>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Padding</h3>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<img src="assets/padding_2d.png" alt="2D Grid" style="width: 45%; height: auto;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>2D Patch serialization</h3>
+<ul>
+<li>Have a non random ordering of the vertices within a patch</li>
+<li>Compare patches together</li>
+</ul>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <img src="assets/morton/2d_grid.png" alt="2D Grid" style="width: 45%; height: auto;">
+    <img src="assets/morton/2d_pointcloud.png" alt="2D Point Cloud" style="width: 45%; height: auto;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h4>Morton code</h4>
+<ul>
+<li><span style="color: tomato;"> $x$ : $x_{32}x_{31}…x_1x_0$ </span></li>
+<li><span style="color: mediumseagreen;"> $y$ : $y_{32}y_{31}…y_1y_0$ </span></li>
+<li>morton code : <span style="color: tomato;"><span style="color: mediumseagreen;">$y_{32}$</span>$x_{32}$<span style="color: mediumseagreen;">$y_{31}$</span>$x_{31}$…<span style="color: mediumseagreen;">$y_1$</span>$x_1$<span style="color: mediumseagreen;">$y_0$</span>$x_0$</span></li>
+</ul>
+<pre><code data-trim class="language-python">
+    def splitBy2(n: int):
+        n = n               & 0x00000000FFFFFFFF
+        n = (n | (n << 16)) & 0x0000FFFF0000FFFF
+        n = (n | (n << 8))  & 0x00FF00FF00FF00FF
+        n = (n | (n << 4))  & 0x0F0F0F0F0F0F0F0F
+        n = (n | (n << 2))  & 0x3333333333333333
+        n = (n | (n << 1))  & 0x5555555555555555
+        return n
+</code></pre>
+<pre><code class="language-python">splitBy2(5) #5 = 101
+&gt;&gt;&gt; 010001
+</code></pre>
+<pre><code class="language-python">morton(x, y) = splitBy2(x) | splitBy2(y) &lt;&lt; 1
+</code></pre>
+<p><code>0.22s</code> for <code>10M</code> integers</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>3D Patch serialization</h3>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <iframe src="assets/morton/3d_grid.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
+    <iframe src="assets/morton/3d_pointcloud.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
+    </div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>First benchmark results</h2>
+
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      RevealChalkboard, 
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: false,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: true,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: false,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'None',
+      transitionSpeed: 'fast',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+      chalkboard: { // font-awesome.min.css must be available
+        //src: "chalkboard/chalkboard.json",
+        storage: "chalkboard-demo",
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+      {
+        icon: '<i class="fa fa-pen-square"></i>',
+        title: 'Toggle chalkboard (B)',
+        action: 'RevealChalkboard.toggleChalkboard();'
+      },
+      {
+        icon: '<i class="fa fa-pen"></i>',
+        title: 'Toggle notes canvas (C)',
+        action: 'RevealChalkboard.toggleNotesCanvas();'
+      }
+      
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>
