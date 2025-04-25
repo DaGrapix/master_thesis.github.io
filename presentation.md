@@ -89,7 +89,7 @@ $$
 \end{align*}
 $$
 $$
-\text{score} = \dfrac{1}{N_{\rm sim} \left( N_f + N_s \right)} \left[ \sum_{n=1}^{N_{\rm sim}} \mathrm{RRMSE}_{f}(\mathbf{f}_{\rm ref, n}, \mathbf{f}_{\rm pred, n}) + \mathrm{RRMSE}_{s}(\mathbf{f}_{\rm ref, n}, \mathbf{f}_{\rm pred, n}) \right]
+\text{score} = \dfrac{1}{\left( N_f + N_s \right)} \left[ \sum_{f} \mathrm{RRMSE}_{f}(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) + \sum_{s} \mathrm{RRMSE}_{s}(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) \right]
 $$
 ``
 
