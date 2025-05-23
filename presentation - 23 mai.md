@@ -99,7 +99,7 @@ $$
 
 
 
-## First Benchmark Results
+## First Benchmark Results 1/3
 
 <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
 
@@ -162,6 +162,7 @@ $$
 
 ---
 
+## First Benchmark Results 2/3
 
 
 <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
@@ -227,6 +228,9 @@ $$
 
 ---
 
+## First Benchmark Results 3/3
+
+
 <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <table border="1">
     <thead>
@@ -253,7 +257,22 @@ $$
   </table>
 </div>
 
+---
 
+## Next step
+
+<br></br>
+
+### Technical tasks:
+* Fix the training environment
+
+
+<br></br>
+
+### Scientific tasks:
+* Decoder
+* Conditioning through network modulation
+* Morphing
 
 ---
 
