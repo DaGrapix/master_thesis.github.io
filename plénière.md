@@ -17,8 +17,8 @@ controlsTutorial: false
 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 75px;">
-    <img src="assets/logos/safran_white.svg" alt="Safran Logo" style="height: 50px;">
-    <img src="assets/logos/epfl.svg" alt="EPFL Logo" style="height: 50px;">
+    <img src="assets/logos/safran_white.svg" alt="Safran Logo" style="height: 75px;">
+    <!-- <img src="assets/logos/epfl.svg" alt="EPFL Logo" style="height: 50px;"> -->
 </div>
 
 
@@ -30,46 +30,108 @@ controlsTutorial: false
 ---
 
 ## Physics Regression Problem
+### Problem statement
+
+<div style="height: 2em;"></div>
 
 <img src="assets/mesh_field_regression_1.svg" style="width: 100%; height: auto;">
 
 ---
 
 ## Physics Regression Problem
+### Problem statement
+
+<div style="height: 2em;"></div>
 
 <img src="assets/mesh_field_regression_2.svg" style="width: 100%; height: auto;">
 
 
 ---
 
-## GNNs
+## Physics Regression Problem
+### GNNs
 
 <div style="display: flex; justify-content: center;">
 <img src="assets/message_passing.svg" style="width: 50%; height: auto;">
 </div>
 
-`
+<!-- **Message passing**
+<div>
 $$
 \mathbf{x}_i^{(k)} = \gamma^{(k)} \left( \mathbf{x}_i^{(k-1)}, \bigoplus_{j \in \mathcal{N}(i)} \, \phi^{(k)}\left(\mathbf{x}_i^{(k-1)}, \mathbf{x}_j^{(k-1)},\mathbf{e}_{j,i}\right) \right)
 $$
+</div> -->
+
+#### **GCN**
+<div>
 $$
 \mathbf{x}_i^{(k)} = \sum_{j \in \mathcal{N}(i) \cup \{ i \}} \frac{1}{\sqrt{\deg(i)} \cdot \sqrt{\deg(j)}} \cdot \left( \mathbf{W}^{\top} \cdot \mathbf{x}_j^{(k-1)} \right) + \mathbf{b},
 $$
-`
-
----
-
-## Receptive field
-
+</div>
 
 
 ---
 
+## Physics Regression Problem
+### Receptive field
 
+<div style="height: 2em;"></div>
+
+<table style="margin: auto; text-align: center;">
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <img src="assets/rnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <img src="assets/cnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <img src="assets/gnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
+    </td>
+  </tr>
+  <tr>
+    <td><b>RNN</b></td>
+    <td><b>CNN</b></td>
+    <td><b>GNN</b></td>
+  </tr>
+</table>
+
+---
+
+## Transformers
+### Generic architecture
+
+<img src="assets/transformer.svg">
+
+---
+
+## Transformers
+### NLP
+
+<img src="assets/transformer_nlp.svg">
+
+
+---
+
+## Transformers
+### ViT
+
+<img src="assets/transformer_vit.svg">
+
+
+---
+
+## Transformers
+### Mesh
+
+<img src="assets/transformer_mesh.svg">
+
+
+---
 
 ## PLAID Benchmark 2/5 -- Evaluation Metrics
 
-``
+<div>
 $$
 \begin{align*}
 \mathrm{RRMSE}_f(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) &= \left( \frac{1}{n_\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N^i}\|\mathbf{f}^i_{\rm ref} - \mathbf{f}^i_{\rm pred}\|_2^2}{\|\mathbf{f}^i_{\rm ref}\|_\infty^2} \right)^{1/2}\\
@@ -79,7 +141,7 @@ $$
 $$
 \text{score} = \dfrac{1}{\left( N_f + N_s \right)} \left[ \sum_{f} \mathrm{RRMSE}_{f}(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) + \sum_{s} \mathrm{RRMSE}_{s}(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) \right]
 $$
-``
+</div>
 
 
 

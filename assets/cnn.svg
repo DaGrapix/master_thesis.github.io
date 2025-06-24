@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="43.650558mm"
+   height="41.58736mm"
+   viewBox="0 0 43.650558 41.58736"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1106-6"
+     transform="translate(0.76273712,1.0121091)"
+     style="display:inline;stroke:#7b3c15;stroke-opacity:1">
+    <g
+       transform="translate(8.5625416,7.2815711)"
+       id="g989-4"
+       style="display:inline;stroke:#bebeb9;stroke-opacity:1">
+      <g
+         id="g1105-0"
+         style="stroke:#bebeb9;stroke-opacity:1">
+        <g
+           id="g944-6"
+           style="stroke:#bebeb9;stroke-opacity:1">
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 5,0 V 25"
+             id="path941-1" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 10,0 V 25"
+             id="path942-8" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 15,0 V 25"
+             id="path943-9" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 20,0 V 25"
+             id="path944-8" />
+        </g>
+        <g
+           id="g948-4"
+           style="stroke:#bebeb9;stroke-opacity:1">
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,5 H 25"
+             id="path945-1" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,10 H 25"
+             id="path946-4" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,15 H 25"
+             id="path947-3" />
+          <path
+             style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,20 H 25"
+             id="path948-9" />
+        </g>
+        <rect
+           x="0"
+           y="0"
+           width="25"
+           height="25"
+           style="fill:none;stroke:#bebeb9;stroke-width:0.264583;stroke-opacity:1"
+           id="rect988-8" />
+      </g>
+    </g>
+    <g
+       transform="translate(13.562542,12.281571)"
+       id="g1103-7"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-opacity:1">
+      <rect
+         style="display:inline;fill:#f8e2ca;fill-opacity:1;stroke:#caa791;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-opacity:1"
+         id="rect1103-8"
+         width="15"
+         height="15"
+         x="78.570328"
+         y="32.835155"
+         transform="translate(-78.570323,-32.835154)" />
+      <rect
+         x="0"
+         y="0"
+         width="15"
+         height="15"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+         id="rect1102-8" />
+      <g
+         id="g1104-3"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-opacity:1">
+        <g
+           id="g1076-0"
+           style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-opacity:1">
+          <path
+             style="fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+             d="M 5,0 V 15"
+             id="path1075-8" />
+          <path
+             style="fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+             d="M 10,0 V 15"
+             id="path1076-7" />
+        </g>
+        <path
+           style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+           d="M 0,5 H 15"
+           id="path1077-8" />
+        <path
+           style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+           d="M 0,10 H 15"
+           id="path1078-3" />
+        <g
+           id="g1078-7"
+           style="display:inline;fill:none;fill-opacity:1;stroke:#caa791;stroke-opacity:1">
+          <path
+             style="fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,5 H 15"
+             id="path1107" />
+          <path
+             style="fill:none;fill-opacity:1;stroke:#caa791;stroke-width:0.264583;stroke-opacity:1"
+             d="M 0,10 H 15"
+             id="path1108" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
