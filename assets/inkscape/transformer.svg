@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="110.18043mm"
-   height="93.354752mm"
-   viewBox="0 0 110.18042 93.354753"
+   width="118.76852mm"
+   height="99.856026mm"
+   viewBox="0 0 118.76852 99.856027"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="347.89654"
-     inkscape:cy="1523.8151"
+     inkscape:zoom="0.5"
+     inkscape:cx="4823"
+     inkscape:cy="-563"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -38,103 +38,89 @@
      inkscape:current-layer="g1210"
      showguides="true">
     <inkscape:page
-       x="0"
-       y="0"
-       width="110.18042"
-       height="93.354752"
-       id="page526"
+       x="1053.6235"
+       y="-316.59732"
+       width="114.67072"
+       height="100.05753"
+       id="page8"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="0"
-       y="100.05753"
-       width="114.94676"
-       height="91.030434"
-       id="page600"
+       x="1178.2943"
+       y="-316.59732"
+       width="114.67072"
+       height="100.05753"
+       id="page9"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="-3.8217545"
-       y="316.59732"
-       width="118.76852"
-       height="99.856026"
-       id="page601"
+       x="1302.9651"
+       y="-316.59732"
+       width="114.67072"
+       height="100.05753"
+       id="page10"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="0"
-       y="421.74582"
-       width="106.4213"
-       height="102.01157"
-       id="page602"
+       x="1427.6357"
+       y="-316.59732"
+       width="114.67072"
+       height="100.05753"
+       id="page11"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="124.94676"
-       y="0"
-       width="112.82628"
-       height="93.354752"
-       id="page603"
-       margin="0"
-       bleed="0"
-       inkscape:export-filename="..\..\transformer.svg"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <inkscape:page
-       x="123.19782"
-       y="100.05753"
-       width="120.09321"
-       height="91.030434"
-       id="page604"
-       margin="0"
-       bleed="0"
-       inkscape:export-filename="..\transformer_nlp.svg"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <inkscape:page
-       x="122.67044"
-       y="316.59732"
-       width="119.0331"
-       height="99.856026"
-       id="page605"
+       x="1552.3065"
+       y="-316.59732"
+       width="114.67072"
+       height="100.05753"
+       id="page12"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="119.44547"
-       y="421.74582"
-       width="106.4213"
-       height="102.01157"
-       id="page606"
+       x="1053.6235"
+       y="-203.66454"
+       width="114.67072"
+       height="100.05753"
+       id="page13"
        margin="0"
        bleed="0"
        inkscape:export-filename="..\transformer_mesh.svg"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <inkscape:page
-       x="225.86678"
-       y="0"
-       width="0"
-       height="0"
-       id="page1212"
+       x="1178.2943"
+       y="-203.66454"
+       width="114.67072"
+       height="100.05753"
+       id="page14"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="0"
-       y="198.17291"
-       width="114.94676"
-       height="100.80625"
-       id="page2"
+       x="1302.9651"
+       y="-203.66454"
+       width="114.67072"
+       height="100.05753"
+       id="page15"
        margin="0"
        bleed="0" />
     <inkscape:page
-       x="124.58132"
-       y="198.17291"
-       width="114.94676"
-       height="100.80625"
-       id="page3"
+       x="1427.6357"
+       y="-203.66454"
+       width="114.67072"
+       height="100.05753"
+       id="page16"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="1552.3065"
+       y="-203.66454"
+       width="114.67072"
+       height="100.05753"
+       id="page17"
        margin="0"
        bleed="0"
-       inkscape:export-filename="..\transformer_nlp_cls.svg"
+       inkscape:export-filename="..\transformer_mesh.svg"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
   </sodipodi:namedview>
@@ -3043,10 +3029,11 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="g1210">
+     id="g1210"
+     transform="translate(3.8217547,-316.59732)">
     <g
        id="g1233"
-       transform="translate(-2.0435204,9.7660523)">
+       transform="translate(1047.7583,9.8649288)">
       <g
          id="g1232">
         <g
@@ -3776,7 +3763,7 @@
     </g>
     <g
        id="g1231"
-       transform="translate(-3.0127525,3.3371602)">
+       transform="translate(1171.4599,-96.720363)">
       <g
          id="g836"
          transform="translate(-3.5367703,22.234332)">
@@ -4584,7 +4571,7 @@
     </g>
     <g
        id="g1230"
-       transform="translate(-5.5221712,122.59583)">
+       transform="translate(1422.1136,-194.00148)">
       <g
          id="g994"
          transform="translate(-7.3858329,7.5392045)">
@@ -5416,7 +5403,7 @@
     </g>
     <g
        id="g1227"
-       transform="translate(-10.651397,120.6883)">
+       transform="translate(1290.4922,-82.976249)">
       <image
          width="15.981366"
          height="15.76637"
@@ -6228,7 +6215,7 @@
     </g>
     <g
        id="g1226"
-       transform="translate(-0.07389086,3.3857139)">
+       transform="translate(1051.2009,16.28193)">
       <g
          id="g1224">
         <text
@@ -6986,7 +6973,7 @@
     </g>
     <g
        id="g1226-3"
-       transform="translate(1.3835076,101.54357)">
+       transform="translate(1175.9456,16.28193)">
       <g
          id="g1224-3">
         <text
@@ -7824,7 +7811,7 @@
     </g>
     <g
        id="g1225"
-       transform="translate(1.5200437e-5,3.2229511)">
+       transform="translate(924.85508,116.15573)">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
@@ -8507,7 +8494,7 @@
     </g>
     <g
        id="g1"
-       transform="translate(4.0539551e-8,117.47499)">
+       transform="translate(1548.4848,-304.27082)">
       <g
          id="g1140"
          transform="translate(-1.109805,-58.784308)">
@@ -9344,7 +9331,7 @@
     </g>
     <g
        id="g2"
-       transform="translate(-2.7506337,117.47498)">
+       transform="translate(1426.2887,-191.33804)">
       <g
          id="g589-3"
          transform="translate(114.43502,28.401717)"
@@ -10102,7 +10089,7 @@
     </g>
     <g
        id="g1231-4"
-       transform="translate(-2.938859,101.45254)">
+       transform="translate(1296.2045,-96.720363)">
       <g
          id="g836-3"
          transform="translate(-3.5367703,22.234332)">

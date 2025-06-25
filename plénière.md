@@ -98,44 +98,154 @@ $$
 
 ---
 
-## Transformers
-### Generic architecture
+## Method
+### Transformers
 
-<img src="assets/transformer.svg">
+<img src="assets/transformer.svg" style="height: 500px;">
 
----
-
-## Transformers
-### NLP
-
-<img src="assets/transformer_nlp.svg">
+<img src="assets/megatron.png" style="height: 500px">
 
 ---
 
-## Transformers
-### NLP
+## Method
+### Attention
 
-<img src="assets/transformer_nlp_cls.svg">
+<div>
+$$
+\text{Attention}(Q, K, V) = \text{SoftMax}\left(\dfrac{QK^T}{\sqrt{l}} \right) V
+$$
+
+$$
+Q \in \mathbb{R}^{m \times l}\newline
+K, V \in \mathbb{R}^{n \times l}
+$$
+
+**Self-attention:**
+$$
+\begin{cases}
+\begin{align*}
+Q &= X W_Q & W_Q \in \mathbb{R}^{d \times l} \newline
+K &= X W_K & W_K \in \mathbb{R}^{d \times l} \newline
+V &= X W_V & W_L \in \mathbb{R}^{d \times l}
+\end{align*}
+\end{cases}
+$$
+
+$$
+X \in \mathbb{R}^{n \times d}
+$$
+</div>
 
 ---
 
-## Transformers
-### ViT
+## Method
+### Transformers in NLP
 
-<img src="assets/transformer_vit.svg">
+<img src="assets/transformer_nlp.svg" style="height: 500px;">
+
+---
+
+## Method
+### Transformers in NLP
+
+<img src="assets/transformer_nlp_cls.svg" style="height: 500px;">
+
+---
+
+## Method
+### Transformers in CV
+
+<img src="assets/transformer_vit.svg" style="height: 500px;">
 
 
 ---
 
-## Transformers
-### Mesh
+## Method
+### Transformers in Physics Regression
 
-<img src="assets/transformer_mesh.svg">
+<img src="assets/transformer_mesh.svg" style="height: 500px;">
 
 
 ---
 
-## PLAID Benchmark 2/5 -- Evaluation Metrics
+## Method
+### Mesh Vision Transformer
+
+<img src="assets/ViT.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
+
+---
+
+## Experiments
+### Questions
+
+1. Order of nodes within each patch?
+2. Patch consistency across samples? (relative position of patches)
+3. Positional encoding?
+4. Shape of patches?
+
+
+---
+
+## Experiments
+### Order of nodes within each patch? ❌
+#### Morton ordering
+
+
+---
+
+## Experiments
+### Patch regularity?
+#### Mesh $\rightarrow$ Image
+
+<img src="assets/physicsimage/features.png" alt="ViT Diagram" style="width: auto; height: 70%;">
+
+<img src="assets/logos/MuscatLogo.svg" style="height: 50px; vertical-align: middle">  Powerful Mesh processing with Muscat
+
+
+---
+
+## Experiments
+### Patch regularity? ✅
+#### ViT with 2D patch PE
+
+
+<img src="assets/physicsimage/vit_pe.png" alt="Unet results" style="width: auto; height: 70%;">
+<div style="font-size: 0.8em; font-style: italic; color: #aaa; margin-top: 0.5em;">
+ViT with PE
+</div>
+
+---
+
+## Experiments
+### Positional encoding? ❌
+#### ViT without 2D patch PE
+
+<img src="assets/physicsimage/vit_pe_less.png" alt="Unet results" style="width: auto; height: 70%;">
+<div style="font-size: 0.8em; font-style: italic; color: #aaa; margin-top: 0.5em;">
+ViT without PE
+</div>
+
+---
+
+## Experiments
+### Patch consistencity across samples?
+#### MMVT (Mesh Morphing Vision Transformer)
+
+<img src="assets/encode.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
+
+---
+
+## Experiments
+### Patch consistencity across samples?
+#### MMVT (Mesh Morphing Vision Transformer)
+
+
+<img src="assets/decode.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
+
+---
+
+## Results
+### PLAID Benchmark -- Evaluation Metrics
 
 <div>
 $$
@@ -151,104 +261,7 @@ $$
 
 
 
-
-<!-- <img src="assets/samples.png" alt="Sample Image" style="width: 100%; height: auto;"> -->
-
 ---
-
-## Vi-Transformers
-
-<img src="assets/ViT.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
-
----
-
-### Tokenization 1/2: Padding + Morton registration
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-<img src="assets/padding_2d.png" alt="2D Grid" style="width: 30%; height: auto;">
-</div>
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="assets/morton/2d_grid.png" alt="2D Grid" style="width: 35%; height: auto;">
-    <!-- <img src="assets/morton/2d_pointcloud.png" alt="2D Point Cloud" style="width: 35%; height: auto;"> -->
-    <img src="assets/morton/patch.png" alt="2D Point Cloud" style="width: 35%; height: auto;">
-</div>
-
----
-
-### Tokenization 2/2: 3d patches
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <iframe src="assets/morton/rotor_patch_0.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
-    <iframe src="assets/morton/rotor_patch_1.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
-</div>
-
-
----
-
-
-## PLAID Article
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-<img src="assets/plaid_article.png" width="60%" position="center">
-</div>
-
----
-
-
-
-## First Benchmark Results
-
-- Performance equivalent to MGN
-- Train time reduced significantly
-
-<br></br>
-
-Other methods:
-
-- MARIO (Neural Fields Representation): Geometry encoding using the SDF
-- MMGP: Morphing to a common geometry
-
----
-
-## Next step
-
-- **Switch on A100 cluster**
-
-<br></br>
-
-### Technical tasks:
-* Fix the training environment
-
-
-<br></br>
-
-### Scientific tasks:
-* Morphing
-* Decoder
-* Conditioning through network modulation
-
----
-
-### Morphing
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-<img src="assets/morphing/patch.png" alt="ViT Diagram" style="width: auto; height: auto;">
-<img src="assets/morphing/morphed_patch.png" alt="ViT Diagram" style="width: auto; height: 70%;">
-</div>
-
----
-
-### Decoder
-
-<img src="assets/new_ViT.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
-
----
-
-### Conditioning by layer modulation
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 75px;">
-<img src="assets/DiT.png" alt="ViT Diagram" style="width: 60%; height: auto;">
-</div>
 
 ---
 
