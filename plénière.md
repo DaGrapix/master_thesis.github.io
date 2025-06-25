@@ -110,6 +110,12 @@ $$
 
 <img src="assets/transformer_nlp.svg">
 
+---
+
+## Transformers
+### NLP
+
+<img src="assets/transformer_nlp_cls.svg">
 
 ---
 
