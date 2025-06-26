@@ -84,38 +84,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-0"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-7" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-3-6"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-9-1" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="marker521-4-5-6-0-2-9-9-5-6-0-6"
        refX="0"
        refY="0"
@@ -241,6 +209,38 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          transform="scale(-0.5)"
          id="path521-8-4-6-1-3-6-9-8-2-2-4-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-0-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-7-3-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-3-6-4-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-9-1-9-4" />
     </marker>
   </defs>
   <g
@@ -697,67 +697,6 @@
              style="fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
              x="135.12762"
              y="184.93398">but larger in mind.</tspan></text>
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.121822;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
-           id="rect909"
-           width="44.234333"
-           height="17.486773"
-           x="187.97162"
-           y="157.06911"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
-           x="189.8152"
-           y="169.64264"
-           id="text912"><tspan
-             id="tspan911"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
-             x="189.8152"
-             y="169.64264">Smaller    in    <tspan
-   style="fill:#da6c6c;fill-opacity:1"
-   id="tspan1210">number</tspan>    are    we,</tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-             x="189.8152"
-             y="173.17041"
-             id="tspan912" /></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           x="195.41968"
-           y="173.03532"
-           id="text913"><tspan
-             id="tspan913"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
-             x="195.41968"
-             y="173.03532">but    larger    in    mind.</tspan></text>
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
-           id="rect914"
-           width="19.237864"
-           height="4.2275696"
-           x="200.46988"
-           y="160.27637"
-           rx="1.1194994"
-           ry="1.1194994" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="203.66714"
-           y="163.02887"
-           id="text914"><tspan
-             id="tspan914"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511"
-             x="203.66714"
-             y="163.02887">Dictionary</tspan></text>
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0)"
-           d="m 210.08879,167.11114 1e-5,-1.6598"
-           id="path915" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6)"
-           d="m 210.08879,160.26646 2e-5,-1.6598"
-           id="path916" />
         <path
            style="fill:#da6c6c;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
            d="m 180.35241,163.64644 7.5583,-5.09"
@@ -965,6 +904,71 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.0662556"
              x="189.96175"
              y="107.66454">L</tspan></text>
+        <g
+           id="g5"
+           transform="translate(-1048.3753,-38.942665)">
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.133;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
+             id="rect909-0-5"
+             width="47.272942"
+             height="17.482672"
+             x="1236.3469"
+             y="196.01382"
+             ry="0" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
+             x="1237.9547"
+             y="208.35146"
+             id="text912-8-0"><tspan
+               id="tspan911-3-9"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
+               x="1237.9547"
+               y="208.35146">Smaller  /  in  /  <tspan
+   style="fill:#da6c6c;fill-opacity:1"
+   id="tspan1210-9-0">number</tspan>  /  are  /  we</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
+               x="1237.9547"
+               y="211.87923"
+               id="tspan912-3-0" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="1244.9868"
+             y="211.978"
+             id="text913-9-6"><tspan
+               id="tspan913-6-13"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
+               x="1244.9868"
+               y="211.978">but  /  larger  /  in  /  mind</tspan></text>
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
+             id="rect914-7-8"
+             width="19.237864"
+             height="4.2275696"
+             x="1250.3644"
+             y="199.21904"
+             rx="1.1194994"
+             ry="1.1194994" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+             x="1253.5616"
+             y="201.97154"
+             id="text914-9-9"><tspan
+               id="tspan914-9-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511"
+               x="1253.5616"
+               y="201.97154">Dictionary</tspan></text>
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0-7-6)"
+             d="m 1259.9833,206.05381 v -1.6598"
+             id="path915-7-4" />
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6-4-2)"
+             d="m 1259.9833,199.20913 v -1.6598"
+             id="path916-6-4" />
+        </g>
       </g>
     </g>
   </g>

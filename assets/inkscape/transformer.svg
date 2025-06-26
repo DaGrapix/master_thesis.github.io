@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.5"
-     inkscape:cx="4823"
-     inkscape:cy="-563"
+     inkscape:zoom="1"
+     inkscape:cx="5336"
+     inkscape:cy="-716.5"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -52,7 +52,10 @@
        height="100.05753"
        id="page9"
        margin="0"
-       bleed="0" />
+       bleed="0"
+       inkscape:export-filename="..\transformer_nlp_cls.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <inkscape:page
        x="1302.9651"
        y="-316.59732"
@@ -630,44 +633,6 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          transform="scale(-0.5)"
          id="path521-8-4-6-1-3-6-9-8-2" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-3"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-9" />
     </marker>
     <marker
        style="overflow:visible"
@@ -1352,44 +1317,6 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          transform="scale(-0.5)"
          id="path6-3-0-0-0-3-72-1-18" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-0"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-7" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-3-6"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-9-1" />
     </marker>
     <marker
        style="overflow:visible"
@@ -2609,44 +2536,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-1"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-8" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker521-342-0-8-0-9-8-5-4-8-3-9"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Dart arrow"
-       markerWidth="1"
-       markerHeight="1"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         transform="scale(-0.5)"
-         id="path521-8-1-0-2-8-7-9-7-9-9-27" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="DartArrow-0-0-2-1-2-3-8-7"
        refX="0"
        refY="0"
@@ -3024,6 +2913,120 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          transform="scale(-0.5)"
          id="path6-3-0-9-0-5-0-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-0-7-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-7-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-3-6-4-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-9-1-9-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-0-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-7-3-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-3-6-4-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-9-1-9-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-0-7-4-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-7-3-1-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker521-342-0-8-0-9-8-5-4-8-3-6-4-1-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path521-8-1-0-2-8-7-9-7-9-9-1-9-3-3" />
     </marker>
   </defs>
   <g
@@ -4473,91 +4476,79 @@
                y="162.7482">but larger in mind.</tspan></text>
         </g>
         <g
-           id="g835"
-           transform="translate(2.4884939e-6,3.4193645)">
+           id="g3-8"
+           transform="translate(9.0369483,-15.493638)">
           <rect
-             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.121822;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect827"
-             width="44.234333"
-             height="17.486773"
-             x="71.249428"
-             y="131.46396"
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
+             id="rect909-0-4-2"
+             width="47.272942"
+             height="17.482672"
+             x="62.212482"
+             y="150.37901"
              ry="0" />
-          <g
-             id="g834"
-             transform="translate(-0.73233278,-3.6475433)">
-            <g
-               id="g832"
-               transform="translate(66.03274,-10.082983)">
-              <g
-                 id="g831"
-                 transform="translate(-0.10744172,-1.0583333)">
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
-                   x="7.9000416"
-                   y="158.82635"
-                   id="text830"><tspan
-                     sodipodi:role="line"
-                     id="tspan829"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-                     x="7.9000416"
-                     y="158.82635">Smaller    in    <tspan
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
+             x="63.820343"
+             y="162.71664"
+             id="text912-8-2-9"><tspan
+               sodipodi:role="line"
+               id="tspan911-3-7-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
+               x="63.820343"
+               y="162.71664"><tspan
+   style="fill:#000000;fill-opacity:1"
+   id="tspan3-3">Smaller  /  in  / </tspan> <tspan
    style="fill:#da6c6c;fill-opacity:1"
-   id="tspan828">number</tspan>    are    we,</tspan><tspan
-                     sodipodi:role="line"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-                     x="7.9000416"
-                     y="162.35413"
-                     id="tspan830" /></text>
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                   x="13.504519"
-                   y="162.21904"
-                   id="text831"><tspan
-                     sodipodi:role="line"
-                     id="tspan831"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15"
-                     x="13.504519"
-                     y="162.21904">but    larger    in    mind.</tspan></text>
-              </g>
-            </g>
-            <g
-               id="g833"
-               transform="matrix(0.66255616,0,0,0.66255616,-7.3288113,107.96177)">
-              <rect
-                 style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-                 id="rect832"
-                 width="29.035822"
-                 height="6.3806963"
-                 x="138.56761"
-                 y="45.817993"
-                 rx="1.6896672"
-                 ry="1.6896672" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.2596px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-                 x="143.39326"
-                 y="49.972366"
-                 id="text832"><tspan
-                   sodipodi:role="line"
-                   id="tspan832"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.2596px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
-                   x="143.39326"
-                   y="49.972366">Dictionary</tspan></text>
-            </g>
-            <path
-               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8)"
-               d="m 94.098929,145.15354 1e-5,-1.6598"
-               id="path833"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3)"
-               d="m 94.098935,138.30886 1e-5,-1.6598"
-               id="path834"
-               sodipodi:nodetypes="cc" />
-          </g>
+   id="tspan1210-9-7-5">number</tspan><tspan
+   style="fill:#000000;fill-opacity:1"
+   id="tspan4-9">  /  are  /  we</tspan></tspan><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
+               x="63.820343"
+               y="166.24442"
+               id="tspan912-3-9-8" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="70.852486"
+             y="166.34319"
+             id="text913-9-3-4"><tspan
+               sodipodi:role="line"
+               id="tspan913-6-1-0"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15"
+               x="70.852486"
+               y="166.34319">but  /  larger  /  in  /  mind</tspan></text>
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
+             id="rect914-7-9-7"
+             width="19.237864"
+             height="4.2275696"
+             x="76.230019"
+             y="153.58423"
+             rx="1.1194994"
+             ry="1.1194994" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+             x="79.427299"
+             y="156.33673"
+             id="text914-9-8-6"><tspan
+               sodipodi:role="line"
+               id="tspan914-9-6-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132511"
+               x="79.427299"
+               y="156.33673">Dictionary</tspan></text>
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0-7-4-4)"
+             d="m 85.84895,160.41901 1e-5,-1.6598"
+             id="path915-7-5-6"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6-4-1-6)"
+             d="m 85.84894,153.57433 2e-5,-1.6598"
+             id="path916-6-0-1"
+             sodipodi:nodetypes="cc" />
         </g>
         <path
            style="fill:#da6c6c;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -6681,73 +6672,6 @@
              style="fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
              x="135.12762"
              y="184.93398">but larger in mind.</tspan></text>
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.121822;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
-           id="rect909"
-           width="44.234333"
-           height="17.486773"
-           x="187.97162"
-           y="157.06911"
-           ry="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
-           x="189.8152"
-           y="169.64264"
-           id="text912"><tspan
-             sodipodi:role="line"
-             id="tspan911"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
-             x="189.8152"
-             y="169.64264">Smaller    in    <tspan
-   style="fill:#da6c6c;fill-opacity:1"
-   id="tspan1210">number</tspan>    are    we,</tspan><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-             x="189.8152"
-             y="173.17041"
-             id="tspan912" /></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           x="195.41968"
-           y="173.03532"
-           id="text913"><tspan
-             sodipodi:role="line"
-             id="tspan913"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
-             x="195.41968"
-             y="173.03532">but    larger    in    mind.</tspan></text>
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
-           id="rect914"
-           width="19.237864"
-           height="4.2275696"
-           x="200.46988"
-           y="160.27637"
-           rx="1.1194994"
-           ry="1.1194994" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="203.66714"
-           y="163.02887"
-           id="text914"><tspan
-             sodipodi:role="line"
-             id="tspan914"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511"
-             x="203.66714"
-             y="163.02887">Dictionary</tspan></text>
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0)"
-           d="m 210.08879,167.11114 1e-5,-1.6598"
-           id="path915"
-           sodipodi:nodetypes="cc" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6)"
-           d="m 210.08879,160.26646 2e-5,-1.6598"
-           id="path916"
-           sodipodi:nodetypes="cc" />
         <path
            style="fill:#da6c6c;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
            d="m 180.35241,163.64644 7.5583,-5.09"
@@ -6969,6 +6893,77 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.0662556"
              x="189.96175"
              y="107.66454">L</tspan></text>
+        <g
+           id="g5"
+           transform="translate(-1048.3753,-38.942665)">
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.133;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
+             id="rect909-0-5"
+             width="47.272942"
+             height="17.482672"
+             x="1236.3469"
+             y="196.01382"
+             ry="0" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
+             x="1237.9547"
+             y="208.35146"
+             id="text912-8-0"><tspan
+               sodipodi:role="line"
+               id="tspan911-3-9"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
+               x="1237.9547"
+               y="208.35146">Smaller  /  in  /  <tspan
+   style="fill:#da6c6c;fill-opacity:1"
+   id="tspan1210-9-0">number</tspan>  /  are  /  we</tspan><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
+               x="1237.9547"
+               y="211.87923"
+               id="tspan912-3-0" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="1244.9868"
+             y="211.978"
+             id="text913-9-6"><tspan
+               sodipodi:role="line"
+               id="tspan913-6-13"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
+               x="1244.9868"
+               y="211.978">but  /  larger  /  in  /  mind</tspan></text>
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
+             id="rect914-7-8"
+             width="19.237864"
+             height="4.2275696"
+             x="1250.3644"
+             y="199.21904"
+             rx="1.1194994"
+             ry="1.1194994" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+             x="1253.5616"
+             y="201.97154"
+             id="text914-9-9"><tspan
+               sodipodi:role="line"
+               id="tspan914-9-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511"
+               x="1253.5616"
+               y="201.97154">Dictionary</tspan></text>
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0-7-6)"
+             d="m 1259.9833,206.05381 v -1.6598"
+             id="path915-7-4"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6-4-2)"
+             d="m 1259.9833,199.20913 v -1.6598"
+             id="path916-6-4"
+             sodipodi:nodetypes="cc" />
+        </g>
       </g>
     </g>
     <g
@@ -7472,70 +7467,70 @@
              x="135.12762"
              y="184.93398">but larger in mind.</tspan></text>
         <rect
-           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.121822;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
+           style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.133;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392"
            id="rect909-0"
-           width="44.234333"
-           height="17.486773"
-           x="187.97162"
-           y="157.06911"
+           width="47.272942"
+           height="17.482672"
+           x="187.97366"
+           y="157.07115"
            ry="0" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
-           x="189.8152"
-           y="169.64264"
+           x="189.58153"
+           y="169.40878"
            id="text912-8"><tspan
              sodipodi:role="line"
              id="tspan911-3"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
-             x="189.8152"
-             y="169.64264">Smaller    in    <tspan
+             x="189.58153"
+             y="169.40878">Smaller  /  in  /  <tspan
    style="fill:#da6c6c;fill-opacity:1"
-   id="tspan1210-9">number</tspan>    are    we,</tspan><tspan
+   id="tspan1210-9">number</tspan>  /  are  /  we</tspan><tspan
              sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-             x="189.8152"
-             y="173.17041"
+             x="189.58153"
+             y="172.93655"
              id="tspan912-3" /></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           x="195.41968"
+           x="196.61366"
            y="173.03532"
            id="text913-9"><tspan
              sodipodi:role="line"
              id="tspan913-6"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.15"
-             x="195.41968"
-             y="173.03532">but    larger    in    mind.</tspan></text>
+             x="196.61366"
+             y="173.03532">but  /  larger  /  in  /  mind</tspan></text>
         <rect
            style="fill:none;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392"
            id="rect914-7"
            width="19.237864"
            height="4.2275696"
-           x="200.46988"
+           x="201.9912"
            y="160.27637"
            rx="1.1194994"
            ry="1.1194994" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="203.66714"
+           x="205.18848"
            y="163.02887"
            id="text914-9"><tspan
              sodipodi:role="line"
              id="tspan914-9"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.132511"
-             x="203.66714"
+             x="205.18848"
              y="163.02887">Dictionary</tspan></text>
         <path
            style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0-7)"
-           d="m 210.08879,167.11114 1e-5,-1.6598"
+           d="m 211.61013,167.11114 1e-5,-1.6598"
            id="path915-7"
            sodipodi:nodetypes="cc" />
         <path
            style="fill:#000000;fill-opacity:1;stroke:#bfbfb9;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.980392;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6-4)"
-           d="m 210.08879,160.26646 2e-5,-1.6598"
+           d="m 211.61012,160.26646 2e-5,-1.6598"
            id="path916-6"
            sodipodi:nodetypes="cc" />
         <path
@@ -10830,93 +10825,6 @@
                x="13.504519"
                y="162.7482">but larger in mind.</tspan></text>
         </g>
-        <g
-           id="g835-2"
-           transform="translate(2.4884939e-6,3.4193645)">
-          <rect
-             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.121822;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect827-0"
-             width="44.234333"
-             height="17.486773"
-             x="71.249428"
-             y="131.46396"
-             ry="0" />
-          <g
-             id="g834-1"
-             transform="translate(-0.73233278,-3.6475433)">
-            <g
-               id="g832-6"
-               transform="translate(66.03274,-10.082983)">
-              <g
-                 id="g831-4"
-                 transform="translate(-0.10744172,-1.0583333)">
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
-                   x="7.9000416"
-                   y="158.82635"
-                   id="text830-0"><tspan
-                     sodipodi:role="line"
-                     id="tspan829-6"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-                     x="7.9000416"
-                     y="158.82635">Smaller    in    <tspan
-   style="fill:#da6c6c;fill-opacity:1"
-   id="tspan828-1">number</tspan>    are    we,</tspan><tspan
-                     sodipodi:role="line"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
-                     x="7.9000416"
-                     y="162.35413"
-                     id="tspan830-8" /></text>
-                <text
-                   xml:space="preserve"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-                   x="13.504519"
-                   y="162.21904"
-                   id="text831-9"><tspan
-                     sodipodi:role="line"
-                     id="tspan831-8"
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15"
-                     x="13.504519"
-                     y="162.21904">but    larger    in    mind.</tspan></text>
-              </g>
-            </g>
-            <g
-               id="g833-4"
-               transform="matrix(0.66255616,0,0,0.66255616,-7.3288113,107.96177)">
-              <rect
-                 style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-                 id="rect832-1"
-                 width="29.035822"
-                 height="6.3806963"
-                 x="138.56761"
-                 y="45.817993"
-                 rx="1.6896672"
-                 ry="1.6896672" />
-              <text
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.2596px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-                 x="143.39326"
-                 y="49.972366"
-                 id="text832-4"><tspan
-                   sodipodi:role="line"
-                   id="tspan832-3"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.2596px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
-                   x="143.39326"
-                   y="49.972366">Dictionary</tspan></text>
-            </g>
-            <path
-               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-1)"
-               d="m 94.098929,145.15354 1e-5,-1.6598"
-               id="path833-9"
-               sodipodi:nodetypes="cc" />
-            <path
-               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-9)"
-               d="m 94.098935,138.30886 1e-5,-1.6598"
-               id="path834-8"
-               sodipodi:nodetypes="cc" />
-          </g>
-        </g>
         <path
            style="fill:#da6c6c;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 63.630222,141.46066 7.558296,-5.09"
@@ -10971,6 +10879,81 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132511"
                x="39.215805"
                y="88.41806">CLS</tspan></text>
+        </g>
+        <g
+           id="g3"
+           transform="translate(9.0369483,-15.493638)">
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98039198"
+             id="rect909-0-4"
+             width="47.272942"
+             height="17.482672"
+             x="62.212482"
+             y="150.37901"
+             ry="0" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20"
+             x="63.820343"
+             y="162.71664"
+             id="text912-8-2"><tspan
+               sodipodi:role="line"
+               id="tspan911-3-7"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#bebeb9;fill-opacity:1;stroke-width:0.15"
+               x="63.820343"
+               y="162.71664"><tspan
+   style="fill:#000000;fill-opacity:1"
+   id="tspan3">Smaller  /  in  / </tspan> <tspan
+   style="fill:#da6c6c;fill-opacity:1"
+   id="tspan1210-9-7">number</tspan><tspan
+   style="fill:#000000;fill-opacity:1"
+   id="tspan4">  /  are  /  we</tspan></tspan><tspan
+               sodipodi:role="line"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.15"
+               x="63.820343"
+               y="166.24442"
+               id="tspan912-3-9" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="70.852486"
+             y="166.34319"
+             id="text913-9-3"><tspan
+               sodipodi:role="line"
+               id="tspan913-6-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15"
+               x="70.852486"
+               y="166.34319">but  /  larger  /  in  /  mind</tspan></text>
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.98039198"
+             id="rect914-7-9"
+             width="19.237864"
+             height="4.2275696"
+             x="76.230019"
+             y="153.58423"
+             rx="1.1194994"
+             ry="1.1194994" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132511;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+             x="79.427299"
+             y="156.33673"
+             id="text914-9-8"><tspan
+               sodipodi:role="line"
+               id="tspan914-9-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132511"
+               x="79.427299"
+               y="156.33673">Dictionary</tspan></text>
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.98039198;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-0-7-4)"
+             d="m 85.84895,160.41901 1e-5,-1.6598"
+             id="path915-7-5"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.98039198;marker-end:url(#marker521-342-0-8-0-9-8-5-4-8-3-6-4-1)"
+             d="m 85.84894,153.57433 2e-5,-1.6598"
+             id="path916-6-0"
+             sodipodi:nodetypes="cc" />
         </g>
       </g>
     </g>
