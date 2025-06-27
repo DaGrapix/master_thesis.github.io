@@ -104,7 +104,7 @@ $$
 <div style="display: flex; justify-content: center; align-items: flex-end; gap: 40px;">
   <img src="assets/transformer.svg" style="height: 500px;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="assets/transformer_bg.png" style="height: 500px; margin-bottom: 0.2em;">
+    <img src="assets/mega_transformer_no_bg.png" style="height: 500px; margin-bottom: 0.2em;">
     <div style="font-size: 0.6em; font-style: italic; margin-top: 0;">
       Transformer generated with a transformer
     </div>
