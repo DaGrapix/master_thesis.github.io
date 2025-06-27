@@ -65,7 +65,7 @@ $$
 #### **GCN**
 <div>
 $$
-\mathbf{x}_i^{(k)} = \sum_{j \in \mathcal{N}(i) \cup \{ i \}} \frac{1}{\sqrt{\deg(i)} \cdot \sqrt{\deg(j)}} \cdot \left( \mathbf{W}^{\top} \cdot \mathbf{x}_j^{(k-1)} \right) + \mathbf{b},
+\mathbf{x}_i^{(k)} = \sum_{j \in \mathcal{N}(i) \cup \{ i \}} \frac{1}{\sqrt{\deg(i)} \cdot \sqrt{\deg(j)}} \cdot \left( \mathbf{W}^{\top} \cdot \mathbf{x}_j^{(k-1)} \right) + \mathbf{b}
 $$
 </div>
 
@@ -101,14 +101,26 @@ $$
 ## Method
 ### Transformers
 
-<img src="assets/transformer.svg" style="height: 500px;">
-
-<img src="assets/megatron.png" style="height: 500px">
+<div style="display: flex; justify-content: center; align-items: flex-end; gap: 40px;">
+  <img src="assets/transformer.svg" style="height: 500px;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="assets/transformer_bg.png" style="height: 500px; margin-bottom: 0.2em;">
+    <div style="font-size: 0.6em; font-style: italic; margin-top: 0;">
+      Transformer generated with a transformer
+    </div>
+  </div>
+</div>
 
 ---
 
 ## Method
 ### Attention
+
+<div>
+$$
+\text{Attention}\left(q, (k_n), (v_n)\right) \sim \sum_n (q^T k_n) v_n \quad , \quad q, k_n, v_n \in \mathbb{R}^l
+$$
+</div>
 
 <div>
 $$
@@ -178,23 +190,25 @@ $$
 ## Experiments
 ### Questions
 
-1. Order of nodes within each patch?
-2. Patch consistency across samples? (relative position of patches)
-3. Positional encoding?
-4. Shape of patches?
+- Order of nodes within each patch?
+- Patch regularity?
+  - Patch consistency across samples? (relative position of patches)
+  - Shape of patches?
+- Positional encoding?
+
 
 
 ---
 
 ## Experiments
-### Order of nodes within each patch? ❌
+### Order of nodes within each patch? <!-- ❌ -->
 #### Morton ordering
 
 
 ---
 
 ## Experiments
-### Patch regularity?
+### Patch regularity? Cross sample consistency / Patch shape
 #### Mesh $\rightarrow$ Image
 
 <img src="assets/physicsimage/features.png" alt="ViT Diagram" style="width: auto; height: 70%;">
@@ -205,7 +219,7 @@ $$
 ---
 
 ## Experiments
-### Patch regularity? ✅
+### Patch regularity? Cross sample consistency / Patch shape ✅
 #### ViT with 2D patch PE
 
 
