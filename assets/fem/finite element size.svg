@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="4"
-     inkscape:cx="224.25"
-     inkscape:cy="114.375"
+     inkscape:zoom="2"
+     inkscape:cx="196"
+     inkscape:cy="137.75"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g8"
+     inkscape:current-layer="layer1"
      showgrid="true">
     <inkscape:grid
        id="grid4"
@@ -141,25 +141,26 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17957;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.267698;stroke-opacity:1"
          id="path2"
          cx="57.964684"
          cy="51.340149"
-         r="0.37500018" />
+         r="0.55903935" />
       <g
          id="g35">
         <circle
-           style="fill:none;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;stroke:#000000;stroke-width:0.30392751;stroke-dasharray:none;stroke-opacity:1"
            id="path1"
            cx="57.964684"
            cy="51.340149"
            r="17.849442" />
         <path
-           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7);marker-end:url(#DartArrow)"
-           d="M 59.074443,51.340149 H 74.941774"
-           id="path3" />
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.379909;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7);marker-end:url(#DartArrow)"
+           d="M 60.582208,51.340149 H 73.38375"
+           id="path3"
+           sodipodi:nodetypes="cc" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.30392751;stroke-dasharray:none;stroke-opacity:1"
            d="M 71.532569,39.742088 51.991614,34.519774 51.256612,67.881139 Z"
            id="path8" />
       </g>
@@ -205,61 +206,62 @@
        inkscape:export-ydpi="96">
       <g
          id="g23"
-         transform="translate(-34.999998,10.000001)">
+         transform="translate(-34.999998,10.000001)"
+         style="stroke-width:0.2;stroke-dasharray:none">
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 110,59.999998 h 40 l 20,-20.000002 h -40 z"
            id="path10" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 120,59.999998 140,39.999996"
            id="path11" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 150,39.999999 130,59.999998"
            id="path12" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 140,59.999998 160,39.999996"
            id="path13" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 115,54.999998 h 40"
            id="path14" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 120,49.999997 h 40"
            id="path15" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 125,44.999999 h 40"
            id="path16" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 110,59.999998 170,39.999999"
            id="path17" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 120,59.999998 165,44.999999"
            id="path18" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 130,59.999998 160,49.999997"
            id="path19" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 140,59.999998 15,-5"
            id="path20" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="M 115,54.999998 160,39.999999"
            id="path21" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 150,39.999999 -30,9.999998"
            id="path22" />
         <path
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.14;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-opacity:1;stroke-dasharray:none"
            d="m 125,44.999999 15,-5"
            id="path23" />
       </g>
@@ -270,7 +272,8 @@
         <path
            style="fill:#afafaf;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.25;stroke-dasharray:none;stroke-opacity:1"
            d="m 145,44.999999 -15,4.999998 -5,5.000001 h 10 l 15,-5.000001 5,-4.999998 z"
-           id="path28" />
+           id="path28"
+           sodipodi:nodetypes="ccccccc" />
         <path
            style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.25;stroke-dasharray:none;stroke-opacity:1"
            d="m 145,44.999999 -5,4.999998 h -10 10 l -15,5.000001 15,-5.000001 -5,5.000001 5,-5.000001 h 10 -10 l 15,-4.999998"
@@ -279,7 +282,7 @@
       <g
          id="g31">
         <path
-           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
            d="m 115,59.999998 -9,-15.999999 -6,21 6,-21 -15.999998,21 L 106,43.999999 120,55"
            id="path30" />
         <path
@@ -334,27 +337,21 @@
        inkscape:export-ydpi="96"
        transform="matrix(0.74995712,0,0,0.74995712,33.696155,5.7230553)">
       <path
-         style="fill:url(#meshgradient25);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.200011;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:url(#meshgradient25);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26668191;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 154.19601,20.704981 -2.03125,21.999995 32.5,-2 z"
          id="path24" />
       <circle
-         style="fill:#0087fd;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.200011;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:#0087fd;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26668191;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path32"
          cx="154.21193"
          cy="20.788067"
-         r="0.71306747" />
+         r="0.91576612" />
       <circle
-         style="fill:#01ff9b;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.200011;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:#01ff9b;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26668191;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path32-5"
          cx="152.18442"
          cy="42.704979"
-         r="0.71306747" />
-      <circle
-         style="fill:#fd6200;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.200011;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="path32-1"
-         cx="184.49747"
-         cy="40.573055"
-         r="0.71306747" />
+         r="0.89781874" />
       <text
          xml:space="preserve"
          style="font-size:3.76318px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fd6200;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -388,6 +385,12 @@
            style="font-size:3.76318px;text-align:end;text-anchor:end;fill:#00fd98;fill-opacity:1;stroke:none;stroke-width:0.15"
            x="150.96559"
            y="43.460037">156</tspan></text>
+      <circle
+         style="fill:#fd6200;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26668191;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path32-1"
+         cx="184.49747"
+         cy="40.573055"
+         r="0.86281556" />
     </g>
   </g>
   <script
