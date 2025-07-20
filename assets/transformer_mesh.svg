@@ -7,9 +7,35 @@
    viewBox="0 0 114.67073 100.05753"
    version="1.1"
    id="svg1"
+   sodipodi:docname="transformer_mesh.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:export-filename="transformer_mesh.png"
+   inkscape:export-xdpi="425.28729"
+   inkscape:export-ydpi="425.28729"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0900998"
+     inkscape:cx="201.81639"
+     inkscape:cy="186.68016"
+     inkscape:window-width="1536"
+     inkscape:window-height="793"
+     inkscape:window-x="979"
+     inkscape:window-y="1203"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2" />
   <defs
      id="defs1">
     <linearGradient
@@ -404,7 +430,7 @@
            x="136.51903"
            y="363.89822" />
         <rect
-           style="fill:#da6c6c;fill-opacity:1;stroke:none;stroke-width:0.0856078;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#bebeb9;fill-opacity:1;stroke:none;stroke-width:0.0856078;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
            id="rect855-3"
            width="2.1969624"
            height="6.1215782"
