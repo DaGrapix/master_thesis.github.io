@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{358.89063263bp}%
+    \setlength{\unitlength}{344.15517426bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,22 +50,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.41942856)%
+  \begin{picture}(1,0.42517352)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mario_geom.pdf}}%
-    \put(0.28787388,0.23566849){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\text{sdf}}|_{\mathcal{V}}$\end{tabular}}}}%
-    \put(0.47648764,0.38703096){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L} \left( \hat{\text{sdf}}, \text{sdf} \right)$\end{tabular}}}}%
-    \put(0.72637682,0.13700279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$- \alpha \nabla_{z_{in}^{(k)}} \mathcal{L} \left( \hat{\text{sdf}}, \text{sdf} \right)$\end{tabular}}}}%
-    \put(0.81982273,0.27497899){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{E}_{in}$\end{tabular}}}}%
-    \put(0.93000329,0.31341703){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_{geom}$\end{tabular}}}}%
-    \put(0.92990533,0.24739116){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z_{in}^{(K)}$\end{tabular}}}}%
-    \put(0.59562435,0.07342115){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\times K$\end{tabular}}}}%
-    \put(0.36170847,0.14553439){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$s_{\theta_{in}, \phi_{in}}(\cdot)$\end{tabular}}}}%
-    \put(0.35700227,0.0333404){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z_{in}^{(k)}$\end{tabular}}}}%
+    \put(0.30162283,0.23494061){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\text{sdf}}|_{\mathcal{V}}$\end{tabular}}}}%
+    \put(0.49831233,0.39278387){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L} \left( \hat{\text{sdf}}, \text{sdf} \right)$\end{tabular}}}}%
+    \put(0.75890085,0.13205041){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$- \alpha \nabla_{\mu_\text{geom}^{(k)}} \mathcal{L} \left( \hat{\text{sdf}}, \text{sdf} \right)$\end{tabular}}}}%
+    \put(0.62255004,0.06574644){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\times K$\end{tabular}}}}%
+    \put(0.37861874,0.14094731){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$s_{\theta_{in}, \phi_{in}}(\cdot)$\end{tabular}}}}%
+    \put(0.37371104,0.02667364){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom}^{(k)}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mario_geom.pdf}}%
-    \put(0.52756575,0.23566848){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\text{sdf}|_{\mathcal{V}}$\end{tabular}}}}%
+    \put(0.55157742,0.2349406){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\text{sdf}|_{\mathcal{V}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mario_geom.pdf}}%
-    \put(0.37433914,0.09237311){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_{\psi_{in}}$\end{tabular}}}}%
+    \put(0.39179021,0.08550986){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_{\psi_{in}}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{mario_geom.pdf}}%
+    \put(0.98892021,0.24716246){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom} = \mu_\text{geom}^{(K)}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
