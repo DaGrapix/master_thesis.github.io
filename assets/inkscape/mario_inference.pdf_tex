@@ -50,28 +50,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.67805535)%
+  \begin{picture}(1,0.67815294)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mario_inference.pdf}}%
-    \put(0.0726914,0.16628662){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$X$\end{tabular}}}}%
-    \put(0.07204867,0.05596201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}sdf\end{tabular}}}}%
+    \put(0.0726914,0.1656272){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$X$\end{tabular}}}}%
+    \put(0.07204867,0.05530259){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}sdf\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mario_inference.pdf}}%
-    \put(0.07268743,0.46179224){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom}$\end{tabular}}}}%
-    \put(0.07268743,0.602392){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{scalars}$\end{tabular}}}}%
+    \put(0.07268743,0.46113282){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom}$\end{tabular}}}}%
+    \put(0.07268743,0.60173257){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{scalars}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mario_inference.pdf}}%
-    \put(0.21829369,0.50412944){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$h_{\psi}$\end{tabular}}}}%
+    \put(0.21829369,0.50347002){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$h_{\psi}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mario_inference.pdf}}%
-    \put(0.33473089,0.50409395){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi$\end{tabular}}}}%
+    \put(0.33473089,0.50343453){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{mario_inference.pdf}}%
-    \put(0.2176188,0.13307435){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\gamma$\end{tabular}}}}%
-    \put(0.38639346,0.13307435){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\gamma(X, \text{sdf})$\end{tabular}}}}%
-    \put(0.58871086,0.13303332){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f_{\theta, \phi}$\end{tabular}}}}%
-    \put(0.85435607,0.13481299){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f_{\theta, \phi}\circ \gamma(X, \text{sdf})$\end{tabular}}}}%
+    \put(0.2176188,0.13241493){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\gamma$\end{tabular}}}}%
+    \put(0.38639346,0.13241493){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\gamma(X, \text{sdf})$\end{tabular}}}}%
+    \put(0.58871086,0.1323739){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f_{\theta, \phi}$\end{tabular}}}}%
+    \put(0.85435607,0.13415357){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f_{\theta, \phi}\circ \gamma(X, \text{sdf})$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{mario_inference.pdf}}%
-    \put(0.61556335,0.60047593){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Output scalars\end{tabular}}}}%
-    \put(0.85424666,0.24287351){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Output fields\end{tabular}}}}%
-    \put(0.44553429,0.50456193){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$k_\omega$\end{tabular}}}}%
-    \put(0.61563431,0.50457172){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$k_\omega(\phi)$\end{tabular}}}}%
+    \put(0.61556335,0.59981651){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Output scalars\end{tabular}}}}%
+    \put(0.85424666,0.24221409){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Output fields\end{tabular}}}}%
+    \put(0.44553429,0.50390251){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$k_\omega$\end{tabular}}}}%
+    \put(0.61563431,0.5039123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$k_\omega(\phi)$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
