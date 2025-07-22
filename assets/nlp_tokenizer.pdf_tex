@@ -1,0 +1,66 @@
+%% Creator: Inkscape 1.4 (86a8ad7, 2024-10-11), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'nlp_tokenizer.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{317.59169211bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.24880453)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.2547675,0.14189551){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Tokenizer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{nlp_tokenizer.pdf}}%
+    \put(0.25487204,0.03324571){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Smaller in number are we,\\\end{tabular}}}}%
+    \put(0.25533941,0.0054978){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}but larger in mind.\end{tabular}}}}%
+    \put(0.78826293,0.13809975){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Smaller  /  in  /  number  /  are  /  we\\\end{tabular}}}}%
+    \put(0.78857046,0.10940477){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}but  /  larger  /  in  /  mind\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{nlp_tokenizer.pdf}}%
+    \put(0.787691,0.19305271){\color[rgb]{0,0,0}\transparent{0.31694001}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Dictionary\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{nlp_tokenizer.pdf}}%
+  \end{picture}%
+\endgroup%
