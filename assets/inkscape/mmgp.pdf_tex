@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{444.14149475bp}%
+    \setlength{\unitlength}{453.24499512bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,28 +50,28 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.28282996)%
+  \begin{picture}(1,0.27714927)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mmgp.pdf}}%
-    \put(0.65171745,0.21271616){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\bar{\mathbf{O}}^i_k$\end{tabular}}}}%
+    \put(0.63877411,0.20844372){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\bar{\mathbf{O}}^i_{k, l}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mmgp.pdf}}%
-    \put(0.46117999,0.174585){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\bar{Z}_{k, l}^i$\end{tabular}}}}%
-    \put(0.46117999,0.09715122){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu^i$\end{tabular}}}}%
-    \put(0.55740001,0.15866021){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\mathbf{O}}^i_k$\end{tabular}}}}%
+    \put(0.45206362,0.17107843){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\mathbf{Z}}^i$\end{tabular}}}}%
+    \put(0.45206362,0.09519992){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu^i$\end{tabular}}}}%
+    \put(0.54635105,0.15547349){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\mathbf{O}}^i_k$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mmgp.pdf}}%
-    \put(0.51280144,0.15806211){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}GP\end{tabular}}}}%
+    \put(0.50264825,0.15488741){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}GP\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mmgp.pdf}}%
-    \put(0.18057201,0.01390713){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Morphing to\\common shape\end{tabular}}}}%
-    \put(0.35200142,0.06845734){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\\to common mesh\end{tabular}}}}%
-    \put(0.4087448,0.10714316){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}PCA\end{tabular}}}}%
-    \put(0.59352511,0.10714316){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Inv PCA\end{tabular}}}}%
-    \put(0.84042189,0.0130694){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Inverse morphing to\\sample shape\\\end{tabular}}}}%
-    \put(0.66778546,0.06845734){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\\to sample mesh\end{tabular}}}}%
-    \put(0.3552183,0.21271616){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\bar{Z}_{k, l}^i$\end{tabular}}}}%
-    \put(0.06143783,0.23126633){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$Z_{k, l}^1$\end{tabular}}}}%
-    \put(0.06142464,0.07790828){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$Z_{k, l}^n$\end{tabular}}}}%
-    \put(0.9579332,0.23119815){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O_k^1$\end{tabular}}}}%
-    \put(0.95794639,0.07784016){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O_k^n$\end{tabular}}}}%
+    \put(0.1770917,0.0136278){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Morphing to\\common shape\end{tabular}}}}%
+    \put(0.34507793,0.06708237){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\\to common mesh\end{tabular}}}}%
+    \put(0.4006816,0.10499117){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}PCA\end{tabular}}}}%
+    \put(0.58175057,0.10499117){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Inv PCA\end{tabular}}}}%
+    \put(0.82368839,0.0128069){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Inverse morphing to\\sample shape\\\end{tabular}}}}%
+    \put(0.65451939,0.06708237){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\\to sample mesh\end{tabular}}}}%
+    \put(0.34823019,0.20844372){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\bar{Z}_{p, l}^i$\end{tabular}}}}%
+    \put(0.06035035,0.22662131){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$Z_{p, l}^1$\end{tabular}}}}%
+    \put(0.06033742,0.07634348){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$Z_{p, l}^n$\end{tabular}}}}%
+    \put(0.93883947,0.2265545){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O_{k, l}^1$\end{tabular}}}}%
+    \put(0.93885239,0.07627672){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$O_{k, l}^n$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

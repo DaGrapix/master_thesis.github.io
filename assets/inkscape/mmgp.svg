@@ -784,9 +784,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.4718773"
-     inkscape:cx="563.13475"
-     inkscape:cy="257.4966"
+     inkscape:zoom="1.7478812"
+     inkscape:cx="510.04611"
+     inkscape:cy="153.61456"
      inkscape:window-width="1920"
      inkscape:window-height="1129"
      inkscape:window-x="1912"
@@ -1040,7 +1040,7 @@
            id="tspan72-6-2-9"
            x="498.87173"
            y="501.66953"
-           style="font-size:5.33333px;stroke:none">$\bar{\mathbf{O}}^i_k$</tspan></text>
+           style="font-size:5.33333px;stroke:none">$\bar{\mathbf{O}}^i_{k, l}$</tspan></text>
       <g
          id="g90"
          transform="translate(15.079753)">
@@ -1075,7 +1075,7 @@
              id="tspan72"
              x="370.95786"
              y="524.25037"
-             style="font-size:2.66667px;stroke:none">$\bar{Z}_{k, l}^i$</tspan></text>
+             style="font-size:2.66667px;stroke:none">$\hat{\mathbf{Z}}^i$</tspan></text>
         <text
            xml:space="preserve"
            style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
@@ -1415,7 +1415,7 @@
            sodipodi:role="line"
            id="tspan96"
            x="323.2883"
-           y="501.66953">$\bar{Z}_{k, l}^i$</tspan></text>
+           y="501.66953">$\bar{Z}_{p, l}^i$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
@@ -1425,7 +1425,7 @@
            sodipodi:role="line"
            id="tspan97"
            x="149.31483"
-           y="490.68433">$Z_{k, l}^1$</tspan></text>
+           y="490.68433">$Z_{p, l}^1$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
@@ -1435,7 +1435,7 @@
            sodipodi:role="line"
            id="tspan98"
            x="149.30702"
-           y="581.50122">$Z_{k, l}^n$</tspan></text>
+           y="581.50122">$Z_{p, l}^n$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
@@ -1445,7 +1445,7 @@
            sodipodi:role="line"
            id="tspan99"
            x="680.20923"
-           y="490.7247">$O_k^1$</tspan></text>
+           y="490.7247">$O_{k, l}^1$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
@@ -1455,7 +1455,7 @@
            sodipodi:role="line"
            id="tspan100"
            x="680.21704"
-           y="581.54156">$O_k^n$</tspan></text>
+           y="581.54156">$O_{k, l}^n$</tspan></text>
     </g>
   </g>
 </svg>

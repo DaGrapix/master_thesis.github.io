@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1"
-     inkscape:cx="5600"
-     inkscape:cy="-1064.5"
-     inkscape:window-width="1920"
-     inkscape:window-height="1129"
-     inkscape:window-x="1912"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="5074.1983"
+     inkscape:cy="-872.56977"
+     inkscape:window-width="1536"
+     inkscape:window-height="793"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1210"
+     inkscape:current-layer="g994"
      showguides="true">
     <inkscape:page
        x="1053.6235"
@@ -148,6 +148,14 @@
        width="114.67072"
        height="100.05753"
        id="page29"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="1808.2104"
+       y="-400.60699"
+       width="210"
+       height="297"
+       id="page1"
        margin="0"
        bleed="0" />
   </sodipodi:namedview>

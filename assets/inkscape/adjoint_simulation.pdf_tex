@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{393.47888856bp}%
+    \setlength{\unitlength}{213.24248787bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.27655137)%
+  \begin{picture}(1,0.3325535)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{adjoint_simulation.pdf}}%
-    \put(0.26338522,0.02269021){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Adjoint simulation\end{tabular}}}}%
+    \put(0.24215167,0.04186828){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Adjoint simulation\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{adjoint_simulation.pdf}}%
-    \put(0.45663351,0.00680052){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dfrac{C_L}{C_D}$\end{tabular}}}}%
-    \put(0.58589569,0.11419527){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\nabla \left(\dfrac{C_L}{C_D} \right)$\end{tabular}}}}%
+    \put(0.59873691,0.01254833){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dfrac{C_L}{C_D}$\end{tabular}}}}%
+    \put(0.83725383,0.17185413){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\nabla \left(\dfrac{C_L}{C_D} \right)$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
