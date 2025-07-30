@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{322.9522633bp}%
+    \setlength{\unitlength}{322.74354469bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,12 +50,11 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.33453035)%
+  \begin{picture}(1,0.32561541)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
+    \put(0.25070056,0.22111154){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Tokenizer\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{vit_tokenizer.pdf}}%
-    \put(0.25096598,0.22911209){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Tokenizer\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{vit_tokenizer.pdf}}%
-    \put(0.78320774,0.28160363){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Flatten + Linear\end{tabular}}}}%
+    \put(0.78328708,0.2699356){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Flatten + Linear\end{tabular}}}}%
   \end{picture}%
 \endgroup%
