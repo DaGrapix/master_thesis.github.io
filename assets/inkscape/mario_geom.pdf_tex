@@ -54,20 +54,20 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mario_geom.pdf}}%
-    \put(0.53104956,0.39495104){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L} \left( \mu_\text{geom}^{(k)} \right)$\end{tabular}}}}%
+    \put(0.53104956,0.39231642){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L} \left( \mu_\text{geom}^{(k)} \right)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mario_geom.pdf}}%
-    \put(0.78766901,0.10083401){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$- \alpha \nabla_{\mu_\text{geom}} \mathcal{L} \left(\mu_\text{geom}^{(k)}\right)$\end{tabular}}}}%
-    \put(0.12116182,0.40122653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\times K$\end{tabular}}}}%
-    \put(0.41317904,0.14477009){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$s_{\theta_{in}, \phi_{in}}(X_c)$\end{tabular}}}}%
-    \put(0.40834609,0.02885078){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom}^{(k)}$\end{tabular}}}}%
+    \put(0.78766901,0.09819938){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$- \alpha \nabla_{\mu_\text{geom}} \mathcal{L} \left(\mu_\text{geom}^{(k)}\right)$\end{tabular}}}}%
+    \put(0.12116182,0.3985919){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\times K$\end{tabular}}}}%
+    \put(0.41317904,0.14213546){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$s_{\theta_{in}, \phi_{in}}(X_c)$\end{tabular}}}}%
+    \put(0.40834609,0.02621615){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mu_\text{geom}^{(k)}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mario_geom.pdf}}%
-    \put(0.41358824,0.09017701){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_{\psi_{in}}$\end{tabular}}}}%
+    \put(0.41358824,0.08754238){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_{\psi_{in}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mario_geom.pdf}}%
-    \put(0.34036759,0.20728697){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\text{sdf}}|_{X_c}$\end{tabular}}}}%
+    \put(0.34036759,0.20465234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\hat{\text{sdf}}|_{X_c}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{mario_geom.pdf}}%
-    \put(0.58914565,0.20638291){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\text{sdf}|_{X_c}$\end{tabular}}}}%
+    \put(0.58914565,0.20374828){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\text{sdf}|_{X_c}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{mario_geom.pdf}}%
-    \put(0.27121168,0.14214338){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}X_c\end{tabular}}}}%
+    \put(0.27121168,0.13950875){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}X_c\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{mario_geom.pdf}}%
   \end{picture}%
 \endgroup%
