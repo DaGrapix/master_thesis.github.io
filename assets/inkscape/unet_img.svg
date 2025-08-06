@@ -27,15 +27,15 @@
      inkscape:deskcolor="#424242"
      inkscape:document-units="mm"
      inkscape:export-bgcolor="#ffffff00"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="311.48054"
-     inkscape:cy="928.78475"
-     inkscape:window-width="1536"
-     inkscape:window-height="793"
-     inkscape:window-x="979"
-     inkscape:window-y="1203"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="384.4893"
+     inkscape:cy="888.65642"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g20">
     <inkscape:page
        x="8.9644316e-22"
        y="0"
@@ -1589,12 +1589,13 @@
            id="g33"
            transform="translate(-2.8565567)">
           <rect
-             style="fill:#f2f2f2;fill-opacity:1;stroke:#535353;stroke-width:0.229466;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:1.14733, 2.0652;stroke-dashoffset:0;stroke-opacity:1"
+             style="fill:#f2f2f2;fill-opacity:1;stroke:#535353;stroke-width:0.229466;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:1.14733003,1.83572805;stroke-dashoffset:0;stroke-opacity:1"
              id="rect32"
              width="53.185665"
              height="22.02747"
              x="74.835762"
-             y="10.253934" />
+             y="10.253934"
+             ry="2.7006786" />
           <text
              xml:space="preserve"
              style="font-size:2.82223px;font-family:Cambria;-inkscape-font-specification:'Cambria, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#a3a3a3;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
