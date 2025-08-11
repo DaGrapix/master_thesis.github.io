@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.4 (86a8ad7, 2024-10-11), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'fem_interpolation.pdf' (pdf, eps, ps)
+%% Accompanies image file 'mmvt.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{96.75855982bp}%
+    \setlength{\unitlength}{366.45135354bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.61032254)%
+  \begin{picture}(1,0.86641543)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{fem_interpolation.pdf}}%
-    \put(0.91505906,0.05142486){\color[rgb]{0.99215686,0.38431373,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}23\end{tabular}}}}%
-    \put(0.14888953,0.55457002){\color[rgb]{0,0.52941176,0.99215686}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}208\end{tabular}}}}%
-    \put(0.13015656,0.00064597){\color[rgb]{0,0.99215686,0.59607843}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}156\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{fem_interpolation.pdf}}%
+    \put(0.16728061,0.85328005){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Reference mesh\end{tabular}}}}%
+    \put(0.16729657,0.00343784){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Morphed mesh\end{tabular}}}}%
+    \put(0.83234356,0.00343784){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Predicted field on morphed mesh\end{tabular}}}}%
+    \put(0.83232757,0.85493496){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Predicted field on sample mesh\end{tabular}}}}%
+    \put(0.24661219,0.44571705){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Morphing\end{tabular}}}}%
+    \put(0.24700792,0.42634079){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}+\end{tabular}}}}%
+    \put(0.24681205,0.40845151){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\end{tabular}}}}%
+    \put(0.4997961,0.18522346){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}MVT\end{tabular}}}}%
+    \put(0.91419373,0.42708428){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}FE interpolation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{mmvt.pdf}}%
   \end{picture}%
 \endgroup%
