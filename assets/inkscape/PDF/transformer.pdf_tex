@@ -61,7 +61,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=2]{transformer.pdf}}%
     \put(0.24556716,0.752393){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}MLP\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{transformer.pdf}}%
-    \put(0.39528024,0.75239301){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CLS\end{tabular}}}}%
+    \put(0.39128756,0.75239301){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}CLS\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{transformer.pdf}}%
     \put(0.82179773,0.68107894){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}MLP\end{tabular}}}}%
     \put(0.82172486,0.61130785){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Norm\end{tabular}}}}%
