@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{409.53852135bp}%
+    \setlength{\unitlength}{407.92487197bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,34 +50,34 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.31765486)%
+  \begin{picture}(1,0.31891142)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{pinns.pdf}}%
-    \put(0.34536988,0.28145275){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.34278062,0.28256611){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X_c)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{pinns.pdf}}%
-    \put(0.34903254,0.12838602){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X)$\end{tabular}}}}%
-    \put(0.4812507,0.28289154){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X u_\theta(X_c)$\end{tabular}}}}%
-    \put(0.63450208,0.28217215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^2 u_\theta(X_c)$\end{tabular}}}}%
-    \put(0.40661068,0.31023418){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
-    \put(0.55899712,0.31023418){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
-    \put(0.53031166,0.08339461){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{data}(\theta)$\end{tabular}}}}%
-    \put(0.65911821,0.0835854){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{physics}(\theta)$\end{tabular}}}}%
-    \put(0.58877633,0.08309894){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$+$\end{tabular}}}}%
-    \put(0.48054135,0.08324675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$=$\end{tabular}}}}%
-    \put(0.58874528,0.00196491){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_\theta \mathcal{L}(\theta)$\end{tabular}}}}%
+    \put(0.34645777,0.12889388){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X)$\end{tabular}}}}%
+    \put(0.47919896,0.28401059){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.63305656,0.28328835){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^2 u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.40426368,0.31146139){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.55725292,0.31146139){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.52845399,0.0837245){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{data}(\theta)$\end{tabular}}}}%
+    \put(0.65777006,0.08391604){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{physics}(\theta)$\end{tabular}}}}%
+    \put(0.58714993,0.08342766){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$+$\end{tabular}}}}%
+    \put(0.47848679,0.08357605){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$=$\end{tabular}}}}%
+    \put(0.58711876,0.00197268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_\theta \mathcal{L}(\theta)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{pinns.pdf}}%
-    \put(0.54697541,0.19858086){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{F}[X_c, u_\theta(X_c), \nabla_X u_\theta(X_c), \nabla_X^2 u_\theta(X_c), ..., \nabla_X^k u_\theta(X_c)]$\end{tabular}}}}%
-    \put(0.59599805,0.04426985){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}backprop.\end{tabular}}}}%
-    \put(0.46706524,0.08339461){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\mathcal{L}(\theta)$\end{tabular}}}}%
-    \put(0.25248429,0.1282644){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X$\end{tabular}}}}%
+    \put(0.54518365,0.19936639){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{F}[X_c, u_\theta(X_c), \nabla_X u_\theta(X_c), \nabla_X^2 u_\theta(X_c), ..., \nabla_X^k u_\theta(X_c)]$\end{tabular}}}}%
+    \put(0.59440021,0.04444497){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}backprop.\end{tabular}}}}%
+    \put(0.46495738,0.0837245){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\mathcal{L}(\theta)$\end{tabular}}}}%
+    \put(0.2495276,0.12877179){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{pinns.pdf}}%
-    \put(0.25197613,0.28133114){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X_c$\end{tabular}}}}%
+    \put(0.24901743,0.28244401){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X_c$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{pinns.pdf}}%
-    \put(0.71177344,0.30757455){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.71063359,0.30879124){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{pinns.pdf}}%
-    \put(0.92923387,0.28217215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^k u_\theta(X_c)$\end{tabular}}}}%
-    \put(0.85372912,0.30757455){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.92895423,0.28328835){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^k u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.8531508,0.30879124){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{pinns.pdf}}%
   \end{picture}%
 \endgroup%

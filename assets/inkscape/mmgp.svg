@@ -784,13 +784,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.7478812"
-     inkscape:cx="510.04611"
-     inkscape:cy="153.61456"
-     inkscape:window-width="1920"
-     inkscape:window-height="1129"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="2.4718773"
+     inkscape:cx="575.47355"
+     inkscape:cy="272.46498"
+     inkscape:window-width="1536"
+     inkscape:window-height="793"
+     inkscape:window-x="979"
+     inkscape:window-y="1203"
      inkscape:window-maximized="1"
      inkscape:current-layer="g57">
     <inkscape:page
@@ -825,7 +825,7 @@
        inkscape:export-ydpi="96">
       <g
          id="g86"
-         transform="translate(6.4407497)">
+         transform="translate(8.44075)">
         <g
            id="g70-3"
            transform="translate(66.179225,7.245252)">
@@ -885,7 +885,7 @@
       </g>
       <g
          id="g93"
-         transform="translate(31.891177)">
+         transform="translate(27.891177)">
         <g
            id="g36"
            clip-path="url(#clipPath37-8)"
@@ -950,12 +950,12 @@
          sodipodi:nodetypes="cc" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-1-6)"
-         d="m 458.51433,532.65481 h 7.91191"
+         d="m 456.51433,532.65481 h 7.91191"
          id="path71-7-1"
          sodipodi:nodetypes="cc" />
       <g
          id="g94"
-         transform="translate(34.526421)">
+         transform="translate(28.526421)">
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-1-6-7)"
            d="m 570.42577,488.1754 h 7.91191"
@@ -969,7 +969,7 @@
       </g>
       <g
          id="g87"
-         transform="translate(2.2002388)">
+         transform="translate(6.200239)">
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
            d="m 212.15256,487.6374 h 7.91191"
@@ -983,7 +983,7 @@
       </g>
       <g
          id="g88"
-         transform="translate(6.4832637)">
+         transform="translate(10.483264)">
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-6)"
            d="m 278.62867,505.82365 5.59456,5.59457"
@@ -997,7 +997,7 @@
       </g>
       <g
          id="g92"
-         transform="translate(28.65395)">
+         transform="translate(24.65395)">
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-6-8)"
            d="m 505.17678,513.45115 5.59456,-5.59457"
@@ -1012,7 +1012,7 @@
       <g
          id="g35"
          clip-path="url(#clipPath35-1)"
-         transform="translate(172.33201,449.2514)">
+         transform="translate(168.33201,449.2514)">
         <g
            clip-path="url(#clipPath33-3)"
            id="g34">
@@ -1033,12 +1033,12 @@
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="498.87173"
+         x="494.87173"
          y="501.66953"
          id="text72-2-1-0"><tspan
            sodipodi:role="line"
            id="tspan72-6-2-9"
-           x="498.87173"
+           x="494.87173"
            y="501.66953"
            style="font-size:5.33333px;stroke:none">$\bar{\mathbf{O}}^i_{k, l}$</tspan></text>
       <g
@@ -1047,14 +1047,14 @@
         <path
            d="M 251.393,425.36513 H 412.80201 V 538.672 H 251.393 Z"
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.73705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           transform="matrix(0.18266301,0,0,0.18269333,310.32978,478.88009)"
+           transform="matrix(0.18266301,0,0,0.18269333,308.32978,478.88009)"
            clip-path="url(#clipPath193-4)"
            id="path411-1"
            sodipodi:nodetypes="ccccc" />
         <path
            d="M 251.393,43.93 H 412.80201 V 418.99813 H 251.393 Z"
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.73705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           transform="matrix(0.18266301,0,0,0.18269333,310.32978,478.88009)"
+           transform="matrix(0.18266301,0,0,0.18269333,308.32978,478.88009)"
            clip-path="url(#clipPath194-8)"
            id="path412-7"
            sodipodi:nodetypes="ccccc" />
@@ -1068,23 +1068,23 @@
         <text
            xml:space="preserve"
            style="font-size:2.66667px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="370.95786"
+           x="368.95786"
            y="524.25037"
            id="text72"><tspan
              sodipodi:role="line"
              id="tspan72"
-             x="370.95786"
+             x="368.95786"
              y="524.25037"
              style="font-size:2.66667px;stroke:none">$\hat{\mathbf{Z}}^i$</tspan></text>
         <text
            xml:space="preserve"
            style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="370.95786"
+           x="368.95786"
            y="570.10577"
            id="text72-2"><tspan
              sodipodi:role="line"
              id="tspan72-6"
-             x="370.95786"
+             x="368.95786"
              y="570.10577"
              style="font-size:5.33333px;stroke:none">$\mu^i$</tspan></text>
         <text
@@ -1100,24 +1100,24 @@
              style="font-size:1.33333px;stroke:none">$\hat{\mathbf{O}}^i_k$</tspan></text>
         <path
            style="fill:#e6e6ff;fill-opacity:1;stroke:#7575ff;stroke-width:0.521066;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           d="m 413.35285,510.4595 v 43.27868 l -23.51009,23.79506 v -90.8688 z"
+           d="m 413.35285,510.4595 v 43.27868 l -25.77063,24.80644 v -90.8688 z"
            id="path74"
            sodipodi:nodetypes="ccccc" />
         <text
            xml:space="preserve"
            style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-           x="401.5275"
+           x="400.45062"
            y="534.03503"
            id="text74"><tspan
              sodipodi:role="line"
              id="tspan74"
-             x="401.5275"
+             x="400.45062"
              y="534.03503"
-             style="fill:#000000;fill-opacity:1;stroke:none">GP</tspan></text>
+             style="fill:#000000;fill-opacity:1;stroke:none">$\mathrm{GP}^f_k$</tspan></text>
       </g>
       <g
          id="g89"
-         transform="translate(7.217473)">
+         transform="translate(11.217473)">
         <g
            id="g30"
            clip-path="url(#clipPath30-8)"
@@ -1154,7 +1154,7 @@
       <g
          id="g42"
          clip-path="url(#clipPath42-7)"
-         transform="translate(188.38976,449.2514)">
+         transform="translate(178.38976,449.2514)">
         <g
            clip-path="url(#clipPath40-9)"
            id="g41">
@@ -1175,7 +1175,7 @@
       <g
          id="g48"
          clip-path="url(#clipPath49-8)"
-         transform="translate(188.38976,449.2514)">
+         transform="translate(178.38976,449.2514)">
         <image
            width="1"
            height="1"
@@ -1187,7 +1187,7 @@
       </g>
       <g
          id="g70-1"
-         transform="translate(464.19397,7.245252)">
+         transform="translate(454.19397,7.245252)">
         <circle
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-linejoin:bevel;stroke-miterlimit:20"
            id="path70-5"
@@ -1231,7 +1231,7 @@
            style="text-align:start;text-anchor:start" /></text>
       <g
          id="g70"
-         transform="translate(0.34930545,7.2452524)">
+         transform="translate(8.349306,7.2452524)">
         <circle
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-linejoin:bevel;stroke-miterlimit:20"
            id="path70"
@@ -1254,7 +1254,7 @@
       <g
          id="g5"
          clip-path="url(#clipPath5-4)"
-         transform="translate(150.38976,449.2514)">
+         transform="translate(158.38976,449.2514)">
         <g
            clip-path="url(#clipPath3-8)"
            id="g4">
@@ -1275,7 +1275,7 @@
       <g
          id="g12"
          clip-path="url(#clipPath12-2)"
-         transform="translate(150.38976,449.2514)">
+         transform="translate(158.38976,449.2514)">
         <g
            clip-path="url(#clipPath10-6)"
            id="g11">
@@ -1318,39 +1318,39 @@
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="219.86475"
+         x="223.86475"
          y="619.40198"
          id="text80"><tspan
            sodipodi:role="line"
            id="tspan80"
-           x="219.86475"
+           x="223.86475"
            y="619.40198">Morphing to</tspan><tspan
            sodipodi:role="line"
-           x="219.86475"
+           x="223.86475"
            y="626.06866"
            id="tspan82">common shape</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="321.3833"
+         x="325.3833"
          y="587.09796"
          id="text80-2"><tspan
            sodipodi:role="line"
-           x="321.3833"
+           x="325.3833"
            y="587.09796"
            id="tspan82-8">FE interpolation</tspan><tspan
            sodipodi:role="line"
-           x="321.3833"
+           x="325.3833"
            y="593.76465"
            id="tspan83">to common mesh</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="354.98608"
+         x="350.98608"
          y="564.18866"
          id="text80-2-7"><tspan
            sodipodi:role="line"
-           x="354.98608"
+           x="350.98608"
            y="564.18866"
            id="tspan83-1">PCA</tspan></text>
       <text
@@ -1366,33 +1366,33 @@
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="610.62036"
+         x="604.62036"
          y="619.89807"
          id="text80-2-6"><tspan
            sodipodi:role="line"
-           x="610.62036"
+           x="604.62036"
            y="619.89807"
            id="tspan82-8-5">Inverse morphing to</tspan><tspan
            sodipodi:role="line"
-           x="610.62036"
+           x="604.62036"
            y="626.56476"
            id="tspan101">sample shape</tspan><tspan
            sodipodi:role="line"
-           x="610.62036"
+           x="604.62036"
            y="633.23138"
            id="tspan83-3" /></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="508.38702"
+         x="504.38702"
          y="587.09796"
          id="text80-2-1"><tspan
            sodipodi:role="line"
-           x="508.38702"
+           x="504.38702"
            y="587.09796"
            id="tspan82-8-8">FE interpolation</tspan><tspan
            sodipodi:role="line"
-           x="508.38702"
+           x="504.38702"
            y="593.76465"
            id="tspan83-21">to sample mesh</tspan></text>
       <text
@@ -1409,52 +1409,52 @@
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="323.2883"
+         x="327.2883"
          y="501.66953"
          id="text96"><tspan
            sodipodi:role="line"
            id="tspan96"
-           x="323.2883"
+           x="327.2883"
            y="501.66953">$\bar{Z}_{p, l}^i$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="149.31483"
+         x="157.31483"
          y="490.68433"
          id="text97"><tspan
            sodipodi:role="line"
            id="tspan97"
-           x="149.31483"
+           x="157.31483"
            y="490.68433">$Z_{p, l}^1$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="149.30702"
+         x="157.30702"
          y="581.50122"
          id="text98"><tspan
            sodipodi:role="line"
            id="tspan98"
-           x="149.30702"
+           x="157.30702"
            y="581.50122">$Z_{p, l}^n$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="680.20923"
+         x="670.20923"
          y="490.7247"
          id="text99"><tspan
            sodipodi:role="line"
            id="tspan99"
-           x="680.20923"
+           x="670.20923"
            y="490.7247">$O_{k, l}^1$</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:5.33333px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:1"
-         x="680.21704"
+         x="670.21704"
          y="581.54156"
          id="text100"><tspan
            sodipodi:role="line"
            id="tspan100"
-           x="680.21704"
+           x="670.21704"
            y="581.54156">$O_{k, l}^n$</tspan></text>
     </g>
   </g>
