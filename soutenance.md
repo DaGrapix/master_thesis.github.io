@@ -244,13 +244,13 @@ $$
 
 ## Benchmark results 1/2
 
-| Dataset           | MGN    | MVT       | Augur         | FNO      | MMGP        | MARIO  |
-|-------------------|--------|--------   |--------       |--------  |--------     |--------|
-| `Tensile2d`       | 0.0673 | 0.0116    | 0.0154        | 0.0123   | **0.0026**  | <u>0.0038</u> |
-| `2D_MultiScHypEl` | 0.0437 | 0.0325    | **0.0232**    | <u>0.0302</u> | -           | 0.0573 |
-| `2D_profile`      | 0.0593 | <u>0.0312</u>  | 0.0425        | 0.0972   | 0.0365      | **0.0307** |
-| `VKI-LS59`        | 0.0684 | <u>0.0193</u>  | 0.0267        | 0.0215   | 0.0312      | **0.0124** |
-| `Rotor37`         | 0.0074 | 0.0029    | 0.0033        | 0.0313   | **0.0014**  | <u>0.0017</u> |
+| Dataset           | MGN    | MVT       | Augur         | MMGP        | MARIO  |
+|-------------------|--------|--------   |--------       |--------     |--------|
+| `Tensile2d`       | 0.0673 | 0.0116    | 0.0154        | **0.0026**  | <u>0.0038</u> |
+| `2D_MultiScHypEl` | 0.0437 | <u>0.0325</u>    | **0.0232**    | -           | 0.0573 |
+| `2D_profile`      | 0.0593 | <u>0.0312</u>  | 0.0425   | 0.0365      | **0.0307** |
+| `VKI-LS59`        | 0.0684 | <u>0.0193</u>  | 0.0267   | 0.0312      | **0.0124** |
+| `Rotor37`         | 0.0074 | 0.0029    | 0.0033        | **0.0014**  | <u>0.0017</u> |
 
 <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
   <strong>Benchmark total errors.
@@ -262,7 +262,6 @@ $$
 - **No universal winner**  
 - **Shape embedding models (MMGP, MARIO) struggle in varying topology**  
 - **MVT >> MGN and consistently strong**
-- **FNO struggles in isotropic meshes**  
 
 ---
 
@@ -438,8 +437,14 @@ $$
 
 ## Conclusions and future work
 
-- 
-- 
+- MVT consistently strong results across all benchmarks.
+- Much improvement over MGN
+- Regularity improvements (node ordering, morphing).
+
+<br>
+
+- Patch morphing.
+- Improved decoder.
 
 ---
 
@@ -461,10 +466,6 @@ Thank you for your **attention** !
 
 
 `0.44s` for `10M` cells. 
-
-<div style="display: flex; justify-content: center;">
-<img src="assets/morton/morton.svg" alt="Sample Image" style="height:20vh; width:auto;">
-</div>
 
 ---
 
