@@ -14,8 +14,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="http://localhost:55931/libs/reveal.js/4.1.3/reset.css">
-	<link rel="stylesheet" href="http://localhost:55931/libs/reveal.js/4.1.3/reveal.css">
+	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/reveal.css">
 
 	
 	
@@ -23,23 +23,23 @@
 
 	  <!-- highlight Theme -->
   	
-	  <link rel="stylesheet" href="http://localhost:55931/libs/highlight.js/11.3.1/styles/monokai.min.css">
+	  <link rel="stylesheet" href="http://localhost:65015/libs/highlight.js/11.3.1/styles/monokai.min.css">
 	
 	
 		
-	<link rel="stylesheet" href="http://localhost:55931/libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
+	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
 	
 	
 	
-		<link rel="stylesheet" href="http://localhost:55931/libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
+		<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
 	
-	<link rel="stylesheet" href="http://localhost:55931/libs/styles/tasklist.css">
+	<link rel="stylesheet" href="http://localhost:65015/libs/styles/tasklist.css">
 
 
 
   <!-- Revealjs Theme -->
   
-  	<link rel="stylesheet" href="http://localhost:55931/libs/reveal.js/4.1.3/theme/black.css" id="theme">
+  	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/theme/black.css" id="theme">
   
   
 
@@ -68,15 +68,15 @@
         <section >
             
             <p><br></br><br></br><br></br></p>
-<h1>Vi-Transformers for Physical Field Prediction</h1>
+<h1 style="margin-bottom: 0.2em; font-size: 2.3em;">Vi-Transformers for Physics Surrogate Modeling</h1>
 <h2>Anthony Kalaydjian</h2>
 <!-- [Safran Tech](https://www.safran-group.com/fr/groupe/innovation/safran-tech) - [EPFL](https://www.epfl.ch/fr/) -->
 <div style="display: flex; justify-content: center; align-items: center; gap: 75px;">
-    <img src="assets/logos/safran_white.svg" alt="Safran Logo" style="height: 75px;">
-    <!-- <img src="assets/logos/epfl.svg" alt="EPFL Logo" style="height: 50px;"> -->
+<img src="assets/logos/epfl.svg" alt="EPFL Logo" style="height: 50px;">
+<img src="assets/logos/safran.svg" alt="Safran Logo" style="height: 50px;">
 </div>
 <div style="position: absolute; bottom: 1em; right: 1em; font-size: 0.9em; color: #666;">
-    4 July 2025
+    25 August 2025
 </div>
 
             </section>
@@ -87,10 +87,8 @@
     
         <section >
             
-            <h2>Physics Regression Problem</h2>
-<h3>Problem statement</h3>
-<div style="height: 2em;"></div>
-<img src="assets/mesh_field_regression_1.svg" style="width: 100%; height: auto;">
+            <h2>Physics Mesh Regression Problem</h2>
+<img src="assets/mesh_field_regression_export.svg" style="width: 100%; height: auto;">
 
             </section>
     
@@ -100,10 +98,22 @@
     
         <section >
             
-            <h2>Physics Regression Problem</h2>
-<h3>Problem statement</h3>
-<div style="height: 2em;"></div>
-<img src="assets/mesh_field_regression_2.svg" style="width: 100%; height: auto;">
+            <h2>Taxonomy of Models for Variable Domain Geometry</h2>
+<div style="display: flex; gap: 40px; align-items: flex-start; justify-content: center;">
+  <div style="flex: 1; padding: 10px; text-align: center;">
+    <h3 style="text-align: center;">Shape embedding</h3>
+    <div style="font-size:1.1em; color:#444; margin-top:5%; text-align:center">SDF embedding</div>
+  <img src="assets/models/mario.svg" alt="Mario SVG" style="width:80%; height:auto; display:inline-block;">
+  <div style="font-size:1.1em; color:#444; margin-top:-5%;"></div>
+    <div style="font-size:1.1em; color:#444; margin-top:10%; text-align:center">Morphing</div>
+  <img src="assets/models/mmgp.svg" alt="MMGP SVG" style="width:80%; height:auto; display:inline-block;">
+  </div>
+  <div style="flex: 1; padding: 10px; text-align: center;">
+    <h3 style="text-align: center;">Relational</h3>
+    <div style="font-size:1.1em; color:#444; margin-top:5%; text-align:center;">GNN</div>
+  <img src="assets/models/relational.svg" alt="Relational SVG" style="width:60%; height:auto; display:inline-block;">
+  </div>
+</div>
 
             </section>
     
@@ -113,22 +123,70 @@
     
         <section >
             
-            <h2>Physics Regression Problem</h2>
-<h3>GNNs</h3>
+            <h2>Transformers</h2>
+<div style="display: flex; justify-content: center; align-items: initial;">
+  <img src="assets/models/transformer.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Self-Attention</h2>
+<h3>Simple form</h3>
+<div>
+$$
+\begin{cases}
+    q_n = W_Q x_n\\
+    k_n = W_K x_n\\
+    v_n = W_V x_n
+\end{cases}, \quad
+$$
+with token $x_n\in \mathbb{R}^l$ and matrices $W_Q, W_K, W_V \in \mathbb{R}^{l \times d}$
+</div>
+<div style="margin-top:5%">
+$$
+    \mathrm{SelfAttention}(q_i, (k_n), (v_n)) = \sum_n \alpha_{i, n} v_n,
+$$
+where $ \alpha_{i, n} = \dfrac{\exp(q_i^T k_n) / \sqrt{d}}{\sum_n \exp(q_i^T k_n) / \sqrt{d}}$
+</div>
+<p><br></br></p>
+<h3>Matrix form:</h3>
+<div>
+$$
+\mathrm{SelfAttention}(Q, K, V) = \mathrm{SoftMax}\left(\frac{Q K^T}{\sqrt{d}}\right) V,
+$$
+where $Q = XW_Q, K = XW_K, V = XW_V$
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Transformers in NLP</h2>
+<div style="display: flex; justify-content: center; align-items: initial;">
+  <img src="assets/models/transformer_nlp.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Vision Transformers</h2>
 <div style="display: flex; justify-content: center;">
-<img src="assets/message_passing.svg" style="width: 50%; height: auto;">
-</div>
-<!-- **Message passing**
-<div>
-$$
-\mathbf{x}_i^{(k)} = \gamma^{(k)} \left( \mathbf{x}_i^{(k-1)}, \bigoplus_{j \in \mathcal{N}(i)} \, \phi^{(k)}\left(\mathbf{x}_i^{(k-1)}, \mathbf{x}_j^{(k-1)},\mathbf{e}_{j,i}\right) \right)
-$$
-</div> -->
-<h4><strong>GCN</strong></h4>
-<div>
-$$
-\mathbf{x}_i^{(k)} = \sum_{j \in \mathcal{N}(i) \cup \{ i \}} \frac{1}{\sqrt{\deg(i)} \cdot \sqrt{\deg(j)}} \cdot \left( \mathbf{W}^{\top} \cdot \mathbf{x}_j^{(k-1)} \right) + \mathbf{b},
-$$
+  <img src="assets/models/transformer_vit.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
 </div>
 
             </section>
@@ -139,97 +197,191 @@ $$
     
         <section >
             
-            <h2>Physics Regression Problem</h2>
-<h3>Receptive field</h3>
-<div style="height: 2em;"></div>
-<table style="margin: auto; text-align: center;">
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="assets/rnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="assets/cnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="assets/gnn.svg" style="width: 300px; height: auto; display: block; margin: auto;">
-    </td>
-  </tr>
-  <tr>
-    <td><b>RNN</b></td>
-    <td><b>CNN</b></td>
-    <td><b>GNN</b></td>
-  </tr>
+            <h2>Transformer for mesh</h2>
+<div style="display: flex; justify-content: center;">
+  <img src="assets/models/transformer_mesh.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Mesh Vision Transformer</h2>
+<div style="display: flex; justify-content: center;">
+  <img src="assets/models/MVT.svg" alt="MVT" style="height:50vh; width:auto;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Patch flattening 1/4</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; height: 80vh;">
+    <img src="assets/morton/morton.svg" alt="Morton ordering on a regular grid" style="max-height: 100%; width: auto;">
+    <div style="font-size: 1em; color: #444; margin-top: 0.5em; margin-bottom: 0;">Morton ordering on a regular 2D grid</div>
+  </div>
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; height: 80vh;">
+    <img src="assets/morton/tensile_decomposition.svg" alt="Tensile2D Domain Decomposition" style="max-height: 100%; width: auto;">
+    <div style="font-size: 1em; color: #444; margin-top: 0.5em; margin-bottom: 0;"><code>Tensile2D</code> partitioning</div>
+  </div>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Patch flattening 2/4</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; height: 80vh;">
+    <img src="assets/morton/patch_0.svg" alt="Patch #0" style="max-height: 100%; width: auto;">
+    <div style="font-size: 1em; color: #444; margin-top: 0.5em; margin-bottom: 0;">Patch #0</div>
+  </div>
+  <div style="flex: 0 0 45%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; text-align: center; height: 80vh;">
+    <img src="assets/morton/patch_40.svg" alt="Patch #44" style="max-height: 100%; width: auto;">
+    <div style="font-size: 1em; color: #444; margin-top: 0.5em; margin-bottom: 0;">Patch #44</div>
+  </div>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Patch flattening 3/4</h2>
+<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 45%; text-align: center;">
+      <iframe src="assets/morton/3d_grid.html" style="width: 500px; height: 350px; border: none;"></iframe>
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;">Morton ordering on a regular 3D grid</div>
+    </div>
+    <div style="flex: 0 0 45%; text-align: center;">
+      <iframe src="assets/morton/rotor37_global_patches_40_60.html" style="width: 500px; height: 350px; border: none;"></iframe>
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>Rotor37</code> partitioning</div>
+    </div>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Patch flattening 4/4</h2>
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 45%; text-align: center;">
+      <iframe src="assets/morton/rotor37_patch_40.html" style="width: 500px; height: 350px; border: none;"></iframe>
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;">Patch #40</div>
+    </div>
+    <div style="flex: 0 0 45%; text-align: center;">
+      <iframe src="assets/morton/rotor37_patch_60.html" style="width: 500px; height: 350px; border: none;"></iframe>
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;">Patch #60</div>
+    </div>
+  </div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID Benchmark 1/2</h2>
+<img src="assets/samples.png" alt="Sample Image" style="width: 100%; height: auto;">
+<div style="margin-top: 1.5em; font-size: 1em; color: #444; text-align: center;">
+  <strong>PLAID datasets fields visualizations.</strong>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>PLAID Benchmark 2/2</h2>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Mesh (mean nodes)</th>
+<th>Inputs</th>
+<th>Outputs</th>
+<th>Splits (train/test)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tensile2d</code></td>
+<td>tri (9,428)</td>
+<td>mesh, 6 scalars</td>
+<td>4 scalars, 6 fields</td>
+<td>500 / 200</td>
+</tr>
+<tr>
+<td><code>2D_MultiScHypEl</code></td>
+<td>tri (5,692)</td>
+<td>mesh, 3 scalars</td>
+<td>1 scalar, 7 fields</td>
+<td>764 / 376</td>
+</tr>
+<tr>
+<td><code>Rotor37</code></td>
+<td>quad (29,773*)</td>
+<td>mesh, 2 scalars</td>
+<td>4 scalars, 3 fields</td>
+<td>1,000 / 200</td>
+</tr>
+<tr>
+<td><code>2D_profile</code></td>
+<td>tri (37,042)</td>
+<td>mesh</td>
+<td>4 fields</td>
+<td>300 / 100</td>
+</tr>
+<tr>
+<td><code>VKI-LS59</code></td>
+<td>quad (36,421*)</td>
+<td>mesh, 2 scalars</td>
+<td>6 scalars, 7 fields</td>
+<td>671 / 168</td>
+</tr>
+</tbody>
 </table>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>Transformers</h2>
-<h3>Generic architecture</h3>
-<img src="assets/transformer.svg">
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>Transformers</h2>
-<h3>NLP</h3>
-<img src="assets/transformer_nlp.svg">
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>Transformers</h2>
-<h3>ViT</h3>
-<img src="assets/transformer_vit.svg">
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>Transformers</h2>
-<h3>Mesh</h3>
-<img src="assets/transformer_mesh.svg">
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>PLAID Benchmark 2/5 – Evaluation Metrics</h2>
+<div style="margin-top: 1.5em; font-size: 1em; color: #444; text-align: center;">
+  <strong>PLAID datasets characteristics.</strong>
+</div>
+<h3>Evaluation metrics</h3>
 <div>
 $$
 \begin{align*}
 \mathrm{RRMSE}_f(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) &= \left( \frac{1}{n_\star}\sum_{i=1}^{n_\star} \frac{\frac{1}{N^i}\|\mathbf{f}^i_{\rm ref} - \mathbf{f}^i_{\rm pred}\|_2^2}{\|\mathbf{f}^i_{\rm ref}\|_\infty^2} \right)^{1/2}\\
-\mathrm{RRMSE}_s(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) &= \left( \frac{1}{n_\star} \sum_{i=1}^{n_\star} \frac{|\mathbf{s}^i_{\rm ref} - \mathbf{s}_{\rm pred}^i|^2}{|\mathbf{s}^i_{\rm ref}|^2} \right)^{1/2}
+\mathrm{RRMSE}_s(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) &= \left( \frac{1}{n_\star} \sum_{i=1}^{n_\star} \frac{|s^i_{\rm ref} - s_{\rm pred}^i|^2}{|s^i_{\rm ref}|^2} \right)^{1/2}
 \end{align*}
 $$
 $$
-\text{score} = \dfrac{1}{\left( N_f + N_s \right)} \left[ \sum_{f} \mathrm{RRMSE}_{f}(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) + \sum_{s} \mathrm{RRMSE}_{s}(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) \right]
+\text{total_error} = \dfrac{1}{\left( N_f + N_s \right)} \left[ \sum_{f} \mathrm{RRMSE}_{f}(\mathbf{f}_{\rm ref}, \mathbf{f}_{\rm pred}) + \sum_{s} \mathrm{RRMSE}_{s}(\mathbf{s}_{\rm ref}, \mathbf{s}_{\rm pred}) \right]
 $$
 </div>
-<!-- <img src="assets/samples.png" alt="Sample Image" style="width: 100%; height: auto;"> -->
 
             </section>
     
@@ -239,97 +391,78 @@ $$
     
         <section >
             
-            <h2>Vi-Transformers</h2>
-<img src="assets/ViT.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3>Tokenization 1/2: Padding + Morton registration</h3>
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-<img src="assets/padding_2d.png" alt="2D Grid" style="width: 30%; height: auto;">
+            <h2>Benchmark results 1/2</h2>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>MGN</th>
+<th>MVT</th>
+<th>Augur</th>
+<th>FNO</th>
+<th>MMGP</th>
+<th>MARIO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tensile2d</code></td>
+<td>0.0673</td>
+<td>0.0116</td>
+<td>0.0154</td>
+<td>0.0123</td>
+<td><strong>0.0026</strong></td>
+<td><u>0.0038</u></td>
+</tr>
+<tr>
+<td><code>2D_MultiScHypEl</code></td>
+<td>0.0437</td>
+<td>0.0325</td>
+<td><strong>0.0232</strong></td>
+<td><u>0.0302</u></td>
+<td>-</td>
+<td>0.0573</td>
+</tr>
+<tr>
+<td><code>2D_profile</code></td>
+<td>0.0593</td>
+<td><u>0.0312</u></td>
+<td>0.0425</td>
+<td>0.0972</td>
+<td>0.0365</td>
+<td><strong>0.0307</strong></td>
+</tr>
+<tr>
+<td><code>VKI-LS59</code></td>
+<td>0.0684</td>
+<td><u>0.0193</u></td>
+<td>0.0267</td>
+<td>0.0215</td>
+<td>0.0312</td>
+<td><strong>0.0124</strong></td>
+</tr>
+<tr>
+<td><code>Rotor37</code></td>
+<td>0.0074</td>
+<td>0.0029</td>
+<td>0.0033</td>
+<td>0.0313</td>
+<td><strong>0.0014</strong></td>
+<td><u>0.0017</u></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+  <strong>Benchmark total errors.
 </div>
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <img src="assets/morton/2d_grid.png" alt="2D Grid" style="width: 35%; height: auto;">
-    <!-- <img src="assets/morton/2d_pointcloud.png" alt="2D Point Cloud" style="width: 35%; height: auto;"> -->
-    <img src="assets/morton/patch.png" alt="2D Point Cloud" style="width: 35%; height: auto;">
+<div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+  Best on each line is <b>bold</b>, second best is <u>underlined</u>.</strong>
 </div>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3>Tokenization 2/2: 3d patches</h3>
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <iframe src="assets/morton/rotor_patch_0.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
-    <iframe src="assets/morton/rotor_patch_1.html" style="width: 1200px; height: 400px; border: none; font-size: 0.01em;"></iframe>
-</div>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>PLAID Article</h2>
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-<img src="assets/plaid_article.png" width="60%" position="center">
-</div>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>First Benchmark Results</h2>
 <ul>
-<li>Performance equivalent to MGN</li>
-<li>Train time reduced significantly</li>
-</ul>
-<p><br></br></p>
-<p>Other methods:</p>
-<ul>
-<li>MARIO (Neural Fields Representation): Geometry encoding using the SDF</li>
-<li>MMGP: Morphing to a common geometry</li>
-</ul>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h2>Next step</h2>
-<ul>
-<li><strong>Switch on A100 cluster</strong></li>
-</ul>
-<p><br></br></p>
-<h3>Technical tasks:</h3>
-<ul>
-<li>Fix the training environment</li>
-</ul>
-<p><br></br></p>
-<h3>Scientific tasks:</h3>
-<ul>
-<li>Morphing</li>
-<li>Decoder</li>
-<li>Conditioning through network modulation</li>
+<li><strong>No universal winner</strong></li>
+<li><strong>Shape embedding models (MMGP, MARIO) struggle in varying topology</strong></li>
+<li><strong>MVT &gt;&gt; MGN and consistently strong</strong></li>
+<li><strong>FNO struggles in isotropic meshes</strong></li>
 </ul>
 
             </section>
@@ -340,10 +473,42 @@ $$
     
         <section >
             
-            <h3>Morphing</h3>
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-<img src="assets/morphing/patch.png" alt="ViT Diagram" style="width: auto; height: auto;">
-<img src="assets/morphing/morphed_patch.png" alt="ViT Diagram" style="width: auto; height: 70%;">
+            <h2>Benchmark results 2/2</h2>
+<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+  <!-- First row: Tensile2D, Multiscale, 2D Profile -->
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/benchmarks/tensile2d.svg" alt="Tensile2d"
+           style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>Tensile2d</code></div>
+    </div>
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/benchmarks/multiscale.svg" alt="2D_MultiScHypEl"
+           style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>2D_MultiScHypEl</code></div>
+    </div>
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/benchmarks/2d_profile.svg" alt="2D_Profile"
+           style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>2D_Profile</code></div>
+    </div>
+  </div>
+  <!-- Second row: Rotor37 and VKIL-S59 -->
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 45%; text-align: center;">
+      <img src="assets/benchmarks/rotor37.svg" alt="Rotor37"
+           style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>Rotor37</code></div>
+    </div>
+    <div style="flex: 0 0 45%; text-align: center;">
+      <img src="assets/benchmarks/vkils59.svg" alt="VKIL-S59"
+           style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>VKIL-S59</code></div>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 1.5em; font-size: 1em; color: #444; text-align: center;">
+  <strong>MVT predicted fields visualizations.</strong>
 </div>
 
             </section>
@@ -354,8 +519,38 @@ $$
     
         <section >
             
-            <h3>Decoder</h3>
-<img src="assets/new_ViT.svg" alt="ViT Diagram" style="width: 100%; height: auto;">
+            <h2>Total Error vs Patch Size Comparison</h2>
+<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+  <!-- First row: 3 figures -->
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/results/2d_multiscale_hyperelasticity_total_error_vs_patch_size.svg" alt="2D_MultiScHypEl" style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>2D_MultiScHypEl</code></div>
+    </div>
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/results/2d_profile_total_error_vs_patch_size.svg" alt="2D_profile" style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>2D_profile</code></div>
+    </div>
+    <div style="flex: 0 0 45%; text-align: center;">
+      <img src="assets/results/tensile2d_total_error_vs_patch_size.svg" alt="Tensile2d" style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>Tensile2d</code></div>
+    </div>
+  </div>
+  <!-- Second row: 2 figures -->
+  <div style="display: flex; justify-content: center; gap: 30px; width: 100%;">
+    <div style="flex: 0 0 45%; text-align: center;">
+      <img src="assets/results/rotor37_total_error_vs_patch_size.svg" alt="Rotor37" style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>Rotor37</code></div>
+    </div>
+    <div style="flex: 0 0 30%; text-align: center;">
+      <img src="assets/results/vkils59_total_error_vs_patch_size.svg" alt="VKI-LS59" style="height: 4cm; max-width: 100%; object-fit: contain;">
+      <div style="font-size: 1em; color: #444; margin-top: 0.5em;"><code>VKI-LS59</code></div>
+    </div>
+  </div>
+</div>
+<div style="margin-top: 1.5em; font-size: 1em; color: #444; text-align: center;">
+  <strong>Comparison of total error vs patch size for different datasets.</strong>
+</div>
 
             </section>
     
@@ -365,10 +560,201 @@ $$
     
         <section >
             
-            <h3>Conditioning by layer modulation</h3>
-<div style="display: flex; justify-content: center; align-items: center; gap: 75px;">
-<img src="assets/DiT.png" alt="ViT Diagram" style="width: 60%; height: auto;">
+            <h2>Questions</h2>
+<ul>
+<li>Is positional encoding necessary?</li>
+<li>How about the loss of the grid regularity in images?</li>
+<li>Does the cross-sample partitioning consistency matter?</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Mesh-to-image</h2>
+<div style="display: flex; justify-content: center;">
+  <img src="assets/misc/mesh-image.svg" alt="MVT" style="height:50vh; width:auto;">
 </div>
+<ul>
+<li>256 x 256 images</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>RRMSEs for 2D_MultiScHypEl</h2>
+<table>
+<thead>
+<tr>
+<th>Field, <em>scalar</em></th>
+<th>Vit_pe</th>
+<th>Vit_pe_less</th>
+<th>U-Net</th>
+<th>MVT (20)</th>
+<th>FNO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>u1</strong></td>
+<td>0.0361</td>
+<td>0.0355</td>
+<td>0.0291</td>
+<td><u>0.0213</u></td>
+<td><strong>0.0115</strong></td>
+</tr>
+<tr>
+<td><strong>u2</strong></td>
+<td>0.0347</td>
+<td>0.0353</td>
+<td>0.0283</td>
+<td><u>0.0210</u></td>
+<td><strong>0.0117</strong></td>
+</tr>
+<tr>
+<td><strong>P11</strong></td>
+<td>0.0437</td>
+<td>0.0439</td>
+<td><strong>0.0349</strong></td>
+<td>0.0397</td>
+<td><u>0.0353</u></td>
+</tr>
+<tr>
+<td><strong>P12</strong></td>
+<td>0.0630</td>
+<td>0.0623</td>
+<td><strong>0.0498</strong></td>
+<td>0.0718</td>
+<td><u>0.0513</u></td>
+</tr>
+<tr>
+<td><strong>P22</strong></td>
+<td>0.0442</td>
+<td>0.0444</td>
+<td><strong>0.0347</strong></td>
+<td>0.0405</td>
+<td><u>0.0359</u></td>
+</tr>
+<tr>
+<td><strong>P21</strong></td>
+<td>0.0626</td>
+<td>0.0617</td>
+<td><strong>0.0500</strong></td>
+<td>0.0703</td>
+<td><u>0.0510</u></td>
+</tr>
+<tr>
+<td><strong>psi</strong></td>
+<td>0.0367</td>
+<td>0.0365</td>
+<td><u>0.0350</u></td>
+<td>0.0374</td>
+<td><strong>0.0329</strong></td>
+</tr>
+<tr>
+<td><em>effective_energy</em></td>
+<td>0.0204</td>
+<td>0.0217</td>
+<td>0.0180</td>
+<td><strong>0.0116</strong></td>
+<td><u>0.0120</u></td>
+</tr>
+<tr>
+<td><strong>total_error</strong></td>
+<td>0.0427</td>
+<td>0.0426</td>
+<td><u>0.0350</u></td>
+<td>0.0392</td>
+<td><strong>0.0302</strong></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+  <strong>Relative Root Mean Square Errors (RRMSEs) for <code>2D_MultiScHypEl</code>.
+</div>
+<div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+  Best on each line is <b>bold</b>, second best is <u>underlined</u>.</strong>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>MMVT 1/2</h2>
+<div style="display: flex; justify-content: center;">
+  <img src="assets/misc/mmvt.svg" alt="MVT" style="height:50vh; width:auto;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>MMVT 2/2</h2>
+<div style="display: flex; gap: 40px; align-items: flex-start; justify-content: center;">
+  <div style="flex: 1; min-width: 320px;">
+    <table>
+      <thead>
+        <tr>
+          <th>Field, <em>scalar</em></th>
+          <th>MMGP</th>
+          <th>MVT</th>
+          <th>MMVT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>U1</strong></td><td><strong>0.0015</strong></td><td>0.0086</td><td><u>0.0043</u></td></tr>
+        <tr><td><strong>U2</strong></td><td><strong>0.0009</strong></td><td>0.0091</td><td><u>0.0051</u></td></tr>
+        <tr><td><strong>sig11</strong></td><td><strong>0.0031</strong></td><td>0.0184</td><td><u>0.0089</u></td></tr>
+        <tr><td><strong>sig22</strong></td><td><strong>0.0013</strong></td><td>0.0102</td><td><u>0.0037</u></td></tr>
+        <tr><td><strong>sig12</strong></td><td><strong>0.0021</strong></td><td>0.0146</td><td><u>0.0051</u></td></tr>
+        <tr><td><em>max_von_mises</em></td><td><strong>0.0050</strong></td><td>0.0090</td><td><u>0.0068</u></td></tr>
+        <tr><td><em>max_U2_top</em></td><td><strong>0.0053</strong></td><td>0.0203</td><td><u>0.0073</u></td></tr>
+        <tr><td><em>max_sig22_top</em></td><td><strong>0.0017</strong></td><td>0.0021</td><td><u>0.0019</u></td></tr>
+        <tr><td><strong>total_error</strong></td><td><strong>0.0026</strong></td><td>0.0116</td><td><u>0.0054</u></td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+      <strong>RRMSEs for <code>Tensile2d</code>.</strong>
+    </div>
+    <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
+      <strong>Best on each line is <b>bold</b>, 2nd best is <u>underlined</u>.</strong>
+    </div>
+  </div>
+  <div style="flex: 1; min-width: 320px; display: flex; justify-content: center; align-items: center;">
+    <img src="assets/results/mvt_mmvt_total_error_vs_patch_size.svg" alt="MVT" style="height:50vh; width:auto;">
+  </div>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Conclusions and future work</h2>
+<ul>
+<li></li>
+<li></li>
+</ul>
 
             </section>
     
@@ -385,38 +771,86 @@ Thank you for your <strong>attention</strong> !</p>
     
 
 
+
+    
+        <section >
+            
+            <h2>Appendix</h2>
+<h3>Morton code</h3>
+<ul>
+<li><span style="color: tomato;"> $x$ : $x_{32}x_{31}…x_1x_0$ </span></li>
+<li><span style="color: mediumseagreen;"> $y$ : $y_{32}y_{31}…y_1y_0$ </span></li>
+<li>morton code : <span style="color: tomato;"><span style="color: mediumseagreen;">$y_{32}$</span>$x_{32}$<span style="color: mediumseagreen;">$y_{31}$</span>$x_{31}$…<span style="color: mediumseagreen;">$y_1$</span>$x_1$<span style="color: mediumseagreen;">$y_0$</span>$x_0$</span></li>
+</ul>
+<p><code>0.44s</code> for <code>10M</code> cells.</p>
+<div style="display: flex; justify-content: center;">
+<img src="assets/morton/morton.svg" alt="Sample Image" style="height:20vh; width:auto;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Appendix</h2>
+<h3>UNET</h3>
+<div style="display: flex; justify-content: center;">
+<img src="assets/models/unet.svg" alt="Sample Image">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Appendix</h2>
+<h3>PLAID Article</h3>
+<div style="display: flex; justify-content: center;">
+  <img src="assets/plaid_article.png" style="width:80%; height:auto;">
+</div>
+
+            </section>
+    
+
+
     </div>
 
 
   </div>
 
   	
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/reveal.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/search/search.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/math/math.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/search/search.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/math/math.js"></script>
 
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
   
-  	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
-  	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
+  	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
+  	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
   
-  	 <!--	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script> -->
+  	 <!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script> -->
 
- <!--	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
-<!--	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
-<!--	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
+ <!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
 
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
 
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
-	<script src="http://localhost:55931/libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
+	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
 
   <script>
 
