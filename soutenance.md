@@ -350,6 +350,7 @@ $$
 - Is positional encoding necessary?
 - How about the loss of the grid regularity in images?
 - Does the cross-sample partitioning consistency matter?
+- Is there enough data in the datasets for the transformer to learn?
 
 ---
 
@@ -365,17 +366,17 @@ $$
 
 ## RRMSEs for 2D_MultiScHypEl
 
-| Field, _scalar_         | Vit_pe      | Vit_pe_less | U-Net        | MVT (20)    |  FNO           |
-|-------------------------|-------------|-------------|--------------|-------------|----------------|
-| **u1**                  | 0.0361      | 0.0355      | 0.0291       | <u>0.0213</u> |  **0.0115**  |
-| **u2**                  | 0.0347      | 0.0353      | 0.0283       | <u>0.0210</u> |  **0.0117**  |
-| **P11**                 | 0.0437      | 0.0439      | **0.0349**| 0.0397      | <u>0.0353</u>     |
-| **P12**                 | 0.0630      | 0.0623      | **0.0498**   | 0.0718      |  <u>0.0513</u> |
-| **P22**                 | 0.0442      | 0.0444      | **0.0347**| 0.0405      |  <u>0.0359</u>    |
-| **P21**                 | 0.0626      | 0.0617      | **0.0500**   | 0.0703      |  <u>0.0510</u> |
-| **psi**                 | 0.0367      | 0.0365      | <u>0.0350</u>       | 0.0374      |  **0.0329** |
-| _effective_energy_      | 0.0204      | 0.0217      | 0.0180       | **0.0116** | <u>0.0120</u>        |
-| **total_error**         | 0.0427      | 0.0426      | <u>0.0350</u>       | 0.0392      |  **0.0302**    |
+| Field, _scalar_         | Vit_pe      | Vit_pe_less | U-Net            |  FNO            | MVT (20)       | 
+|-------------------------|-------------|-------------|------------------|---------------- |-------------   |
+| **u1**                  | 0.0361      | 0.0355      | 0.0291           |  **0.0115**     | <u>0.0213</u>  |
+| **u2**                  | 0.0347      | 0.0353      | 0.0283           |  **0.0117**     | <u>0.0210</u>  |
+| **P11**                 | 0.0437      | 0.0439      | **0.0349**       | <u>0.0353</u>   | 0.0397         |  
+| **P12**                 | 0.0630      | 0.0623      | **0.0498**       |  <u>0.0513</u>  | 0.0718         |
+| **P22**                 | 0.0442      | 0.0444      | **0.0347**       |  <u>0.0359</u>  | 0.0405         |  
+| **P21**                 | 0.0626      | 0.0617      | **0.0500**       |  <u>0.0510</u>  | 0.0703         |
+| **psi**                 | 0.0367      | 0.0365      | <u>0.0350</u>    |  **0.0329**     | 0.0374         |
+| _effective_energy_      | 0.0204      | 0.0217      | 0.0180           | <u>0.0120</u>   | **0.0116**     |      
+| **total_error**         | 0.0427      | 0.0426      | <u>0.0350</u>    |  **0.0302**     | 0.0392         |
 
 <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
   <strong>Relative Root Mean Square Errors (RRMSEs) for <code>2D_MultiScHypEl</code>.
@@ -438,7 +439,7 @@ $$
 ## Conclusions and future work
 
 - MVT consistently strong results across all benchmarks.
-- Much improvement over MGN
+- Much improvement over MGN.
 - Regularity improvements (node ordering, morphing).
 
 <br>
