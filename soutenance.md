@@ -31,6 +31,25 @@ controlsTutorial: false
 
 ---
 
+## Table of Contents
+
+<br></br>
+
+<div style="font-size: 1.3em; padding-left: 1em;">
+  <div style="margin-bottom: 0.7em;"><b>Problem statement</b></div>
+  <div style="margin-bottom: 0.7em;"><b>Mesh Vision Transformer</b></div>
+  <div><b>Experiments & Results</b></div>
+</div>
+
+---
+
+<div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Problem statement</h1>
+</div>
+
+
+---
+
 ## Physics Mesh Regression Problem
 
 <img src="assets/mesh_field_regression_export.svg" style="width: 100%; height: auto;">
@@ -86,7 +105,7 @@ with token $x_n\in \mathbb{R}^l$ and matrices $W_Q, W_K, W_V \in \mathbb{R}^{l \
 $$
     \mathrm{SelfAttention}(q_i, (k_n), (v_n)) = \sum_n \alpha_{i, n} v_n,
 $$
-where $ \alpha_{i, n} = \dfrac{\exp(q_i^T k_n) / \sqrt{d}}{\sum_n \exp(q_i^T k_n) / \sqrt{d}}$
+where $ \alpha_{i, n} = \dfrac{\exp(q_i^T k_n / \sqrt{d})}{\sum_n \exp(q_i^T k_n / \sqrt{d})}$
 </div>
 
 <br></br>
@@ -124,6 +143,12 @@ where $Q = XW_Q, K = XW_K, V = XW_V$
   <img src="assets/models/transformer_mesh.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
 </div>
 
+
+---
+
+<div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Mesh Vision Transformer</h1>
+</div>
 
 ---
 
@@ -193,6 +218,13 @@ where $Q = XW_Q, K = XW_K, V = XW_V$
       <div style="font-size: 1em; color: #444; margin-top: 0.5em;">Patch #60</div>
     </div>
   </div>
+
+---
+
+<div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Experiments & Results</h1>
+</div>
+
 
 ---
 
@@ -366,7 +398,7 @@ $$
 
 ## RRMSEs for 2D_MultiScHypEl
 
-| Field, _scalar_         | Vit_pe      | Vit_pe_less | U-Net            |  FNO            | MVT (20)       | 
+| Field, _scalar_         | Vit_pe      | Vit_<s>pe</s> | U-Net            |  FNO            | MVT (20)       | 
 |-------------------------|-------------|-------------|------------------|---------------- |-------------   |
 | **u1**                  | 0.0361      | 0.0355      | 0.0291           |  **0.0115**     | <u>0.0213</u>  |
 | **u2**                  | 0.0347      | 0.0353      | 0.0283           |  **0.0117**     | <u>0.0210</u>  |
@@ -384,6 +416,11 @@ $$
 <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
   Best on each line is <b>bold</b>, second best is <u>underlined</u>.</strong>
 </div>
+
+- <strong>❌ positional encoding</strong>
+- <strong>Vit is able to learn even with small scale dataset</strong>
+- <strong> The image structure does not yield much improvement</strong> 
+- <strong>More advanced image based Unet and FNO remain better</strong>
 
 ---
 
@@ -438,7 +475,8 @@ $$
 
 ## Conclusions and future work
 
-- MVT consistently strong results across all benchmarks.
+- MVT is applicable to large scale simulation datasets with varying topology/geometry
+- with consistently strong results across all benchmarks.
 - Much improvement over MGN.
 - Regularity improvements (node ordering, morphing).
 

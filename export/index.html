@@ -14,8 +14,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/reset.css">
-	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/reveal.css">
+	<link rel="stylesheet" href="http://localhost:63330/libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="http://localhost:63330/libs/reveal.js/4.1.3/reveal.css">
 
 	
 	
@@ -23,23 +23,23 @@
 
 	  <!-- highlight Theme -->
   	
-	  <link rel="stylesheet" href="http://localhost:65015/libs/highlight.js/11.3.1/styles/monokai.min.css">
+	  <link rel="stylesheet" href="http://localhost:63330/libs/highlight.js/11.3.1/styles/monokai.min.css">
 	
 	
 		
-	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
+	<link rel="stylesheet" href="http://localhost:63330/libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
 	
 	
 	
-		<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
+		<link rel="stylesheet" href="http://localhost:63330/libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
 	
-	<link rel="stylesheet" href="http://localhost:65015/libs/styles/tasklist.css">
+	<link rel="stylesheet" href="http://localhost:63330/libs/styles/tasklist.css">
 
 
 
   <!-- Revealjs Theme -->
   
-  	<link rel="stylesheet" href="http://localhost:65015/libs/reveal.js/4.1.3/theme/black.css" id="theme">
+  	<link rel="stylesheet" href="http://localhost:63330/libs/reveal.js/4.1.3/theme/black.css" id="theme">
   
   
 
@@ -77,6 +77,34 @@
 </div>
 <div style="position: absolute; bottom: 1em; right: 1em; font-size: 0.9em; color: #666;">
     25 August 2025
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Table of Contents</h2>
+<p><br></br></p>
+<div style="font-size: 1.3em; padding-left: 1em;">
+  <div style="margin-bottom: 0.7em;"><b>Problem statement</b></div>
+  <div style="margin-bottom: 0.7em;"><b>Mesh Vision Transformer</b></div>
+  <div><b>Experiments & Results</b></div>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Problem statement</h1>
 </div>
 
             </section>
@@ -152,7 +180,7 @@ with token $x_n\in \mathbb{R}^l$ and matrices $W_Q, W_K, W_V \in \mathbb{R}^{l \
 $$
     \mathrm{SelfAttention}(q_i, (k_n), (v_n)) = \sum_n \alpha_{i, n} v_n,
 $$
-where $ \alpha_{i, n} = \dfrac{\exp(q_i^T k_n) / \sqrt{d}}{\sum_n \exp(q_i^T k_n) / \sqrt{d}}$
+where $ \alpha_{i, n} = \dfrac{\exp(q_i^T k_n / \sqrt{d})}{\sum_n \exp(q_i^T k_n / \sqrt{d})}$
 </div>
 <p><br></br></p>
 <h3>Matrix form:</h3>
@@ -200,6 +228,18 @@ where $Q = XW_Q, K = XW_K, V = XW_V$
             <h2>Transformer for mesh</h2>
 <div style="display: flex; justify-content: center;">
   <img src="assets/models/transformer_mesh.svg" alt="Transformer Architecture" style="width:60%; height:auto; display:inline-block;">
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Mesh Vision Transformer</h1>
 </div>
 
             </section>
@@ -304,6 +344,18 @@ where $Q = XW_Q, K = XW_K, V = XW_V$
     
         <section >
             
+            <div style="height: 70vh; display: flex; justify-content: center; align-items: center;">
+  <h1 style="font-size: 2.5em; font-weight: bold; text-align: center;">Experiments & Results</h1>
+</div>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
             <h2>PLAID Benchmark 1/2</h2>
 <img src="assets/samples.png" alt="Sample Image" style="width: 100%; height: auto;">
 <div style="margin-top: 1.5em; font-size: 1em; color: #444; text-align: center;">
@@ -399,7 +451,6 @@ $$
 <th>MGN</th>
 <th>MVT</th>
 <th>Augur</th>
-<th>FNO</th>
 <th>MMGP</th>
 <th>MARIO</th>
 </tr>
@@ -410,16 +461,14 @@ $$
 <td>0.0673</td>
 <td>0.0116</td>
 <td>0.0154</td>
-<td>0.0123</td>
 <td><strong>0.0026</strong></td>
 <td><u>0.0038</u></td>
 </tr>
 <tr>
 <td><code>2D_MultiScHypEl</code></td>
 <td>0.0437</td>
-<td>0.0325</td>
+<td><u>0.0325</u></td>
 <td><strong>0.0232</strong></td>
-<td><u>0.0302</u></td>
 <td>-</td>
 <td>0.0573</td>
 </tr>
@@ -428,7 +477,6 @@ $$
 <td>0.0593</td>
 <td><u>0.0312</u></td>
 <td>0.0425</td>
-<td>0.0972</td>
 <td>0.0365</td>
 <td><strong>0.0307</strong></td>
 </tr>
@@ -437,7 +485,6 @@ $$
 <td>0.0684</td>
 <td><u>0.0193</u></td>
 <td>0.0267</td>
-<td>0.0215</td>
 <td>0.0312</td>
 <td><strong>0.0124</strong></td>
 </tr>
@@ -446,7 +493,6 @@ $$
 <td>0.0074</td>
 <td>0.0029</td>
 <td>0.0033</td>
-<td>0.0313</td>
 <td><strong>0.0014</strong></td>
 <td><u>0.0017</u></td>
 </tr>
@@ -462,7 +508,6 @@ $$
 <li><strong>No universal winner</strong></li>
 <li><strong>Shape embedding models (MMGP, MARIO) struggle in varying topology</strong></li>
 <li><strong>MVT &gt;&gt; MGN and consistently strong</strong></li>
-<li><strong>FNO struggles in isotropic meshes</strong></li>
 </ul>
 
             </section>
@@ -565,6 +610,7 @@ $$
 <li>Is positional encoding necessary?</li>
 <li>How about the loss of the grid regularity in images?</li>
 <li>Does the cross-sample partitioning consistency matter?</li>
+<li>Is there enough data in the datasets for the transformer to learn?</li>
 </ul>
 
             </section>
@@ -597,10 +643,10 @@ $$
 <tr>
 <th>Field, <em>scalar</em></th>
 <th>Vit_pe</th>
-<th>Vit_pe_less</th>
+<th>Vit_<s>pe</s></th>
 <th>U-Net</th>
-<th>MVT (20)</th>
 <th>FNO</th>
+<th>MVT (20)</th>
 </tr>
 </thead>
 <tbody>
@@ -609,72 +655,72 @@ $$
 <td>0.0361</td>
 <td>0.0355</td>
 <td>0.0291</td>
-<td><u>0.0213</u></td>
 <td><strong>0.0115</strong></td>
+<td><u>0.0213</u></td>
 </tr>
 <tr>
 <td><strong>u2</strong></td>
 <td>0.0347</td>
 <td>0.0353</td>
 <td>0.0283</td>
-<td><u>0.0210</u></td>
 <td><strong>0.0117</strong></td>
+<td><u>0.0210</u></td>
 </tr>
 <tr>
 <td><strong>P11</strong></td>
 <td>0.0437</td>
 <td>0.0439</td>
 <td><strong>0.0349</strong></td>
-<td>0.0397</td>
 <td><u>0.0353</u></td>
+<td>0.0397</td>
 </tr>
 <tr>
 <td><strong>P12</strong></td>
 <td>0.0630</td>
 <td>0.0623</td>
 <td><strong>0.0498</strong></td>
-<td>0.0718</td>
 <td><u>0.0513</u></td>
+<td>0.0718</td>
 </tr>
 <tr>
 <td><strong>P22</strong></td>
 <td>0.0442</td>
 <td>0.0444</td>
 <td><strong>0.0347</strong></td>
-<td>0.0405</td>
 <td><u>0.0359</u></td>
+<td>0.0405</td>
 </tr>
 <tr>
 <td><strong>P21</strong></td>
 <td>0.0626</td>
 <td>0.0617</td>
 <td><strong>0.0500</strong></td>
-<td>0.0703</td>
 <td><u>0.0510</u></td>
+<td>0.0703</td>
 </tr>
 <tr>
 <td><strong>psi</strong></td>
 <td>0.0367</td>
 <td>0.0365</td>
 <td><u>0.0350</u></td>
-<td>0.0374</td>
 <td><strong>0.0329</strong></td>
+<td>0.0374</td>
 </tr>
 <tr>
 <td><em>effective_energy</em></td>
 <td>0.0204</td>
 <td>0.0217</td>
 <td>0.0180</td>
-<td><strong>0.0116</strong></td>
 <td><u>0.0120</u></td>
+<td><strong>0.0116</strong></td>
 </tr>
 <tr>
 <td><strong>total_error</strong></td>
 <td>0.0427</td>
 <td>0.0426</td>
 <td><u>0.0350</u></td>
-<td>0.0392</td>
 <td><strong>0.0302</strong></td>
+<td>0.0392</td>
 </tr>
 </tbody>
 </table>
@@ -684,6 +730,12 @@ $$
 <div style="margin-top:0.5em; font-size:0.95em; text-align:center; color:#444;">
   Best on each line is <b>bold</b>, second best is <u>underlined</u>.</strong>
 </div>
+<ul>
+<li><strong>❌ positional encoding</strong></li>
+<li><strong>Vit is able to learn even with small scale dataset</strong></li>
+<li><strong> The image structure does not yield much improvement</strong></li>
+<li><strong>More advanced image based Unet and FNO remain better</strong></li>
+</ul>
 
             </section>
     
@@ -752,8 +804,15 @@ $$
             
             <h2>Conclusions and future work</h2>
 <ul>
-<li></li>
-<li></li>
+<li>MVT is applicable to large scale simulation datasets with varying topology/geometry</li>
+<li>with consistently strong results across all benchmarks.</li>
+<li>Much improvement over MGN.</li>
+<li>Regularity improvements (node ordering, morphing).</li>
+</ul>
+<br>
+<ul>
+<li>Patch morphing.</li>
+<li>Improved decoder.</li>
 </ul>
 
             </section>
@@ -783,9 +842,6 @@ Thank you for your <strong>attention</strong> !</p>
 <li>morton code : <span style="color: tomato;"><span style="color: mediumseagreen;">$y_{32}$</span>$x_{32}$<span style="color: mediumseagreen;">$y_{31}$</span>$x_{31}$…<span style="color: mediumseagreen;">$y_1$</span>$x_1$<span style="color: mediumseagreen;">$y_0$</span>$x_0$</span></li>
 </ul>
 <p><code>0.44s</code> for <code>10M</code> cells.</p>
-<div style="display: flex; justify-content: center;">
-<img src="assets/morton/morton.svg" alt="Sample Image" style="height:20vh; width:auto;">
-</div>
 
             </section>
     
@@ -825,32 +881,32 @@ Thank you for your <strong>attention</strong> !</p>
   </div>
 
   	
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/reveal.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/search/search.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/math/math.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/search/search.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/math/math.js"></script>
 
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
   
-  	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
-  	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
+  	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
+  	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
   
-  	 <!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script> -->
+  	 <!--	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script> -->
 
- <!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
-<!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
-<!--	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
+ <!--	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
 
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
 
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
-	<script src="http://localhost:65015/libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
+	<script src="http://localhost:63330/libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
 
   <script>
 
