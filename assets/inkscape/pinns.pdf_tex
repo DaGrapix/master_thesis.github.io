@@ -1,0 +1,83 @@
+%% Creator: Inkscape 1.4 (86a8ad7, 2024-10-11), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pinns.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{407.92487197bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.31891142)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pinns.pdf}}%
+    \put(0.34278062,0.28256611){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X_c)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pinns.pdf}}%
+    \put(0.34645777,0.12889388){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$u_\theta(X)$\end{tabular}}}}%
+    \put(0.47919896,0.28401059){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.63305656,0.28328835){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^2 u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.40426368,0.31146139){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.55725292,0.31146139){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0.52845399,0.0837245){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{data}(\theta)$\end{tabular}}}}%
+    \put(0.65777006,0.08391604){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{L}_\text{physics}(\theta)$\end{tabular}}}}%
+    \put(0.58714993,0.08342766){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$+$\end{tabular}}}}%
+    \put(0.47848679,0.08357605){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$=$\end{tabular}}}}%
+    \put(0.58711876,0.00197268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_\theta \mathcal{L}(\theta)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pinns.pdf}}%
+    \put(0.54518365,0.19936639){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\mathcal{F}[X_c, u_\theta(X_c), \nabla_X u_\theta(X_c), \nabla_X^2 u_\theta(X_c), ..., \nabla_X^k u_\theta(X_c)]$\end{tabular}}}}%
+    \put(0.59440021,0.04444497){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}backprop.\end{tabular}}}}%
+    \put(0.46495738,0.0837245){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\mathcal{L}(\theta)$\end{tabular}}}}%
+    \put(0.2495276,0.12877179){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{pinns.pdf}}%
+    \put(0.24901743,0.28244401){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$X_c$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{pinns.pdf}}%
+    \put(0.71063359,0.30879124){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{pinns.pdf}}%
+    \put(0.92895423,0.28328835){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nabla_X^k u_\theta(X_c)$\end{tabular}}}}%
+    \put(0.8531508,0.30879124){\color[rgb]{0.11764706,0.3254902,0.83921569}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}backprop.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{pinns.pdf}}%
+  \end{picture}%
+\endgroup%

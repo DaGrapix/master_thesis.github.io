@@ -1,0 +1,116 @@
+%% Creator: Inkscape 1.4 (86a8ad7, 2024-10-11), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'unet_img.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{546.79266502bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.68476493)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{unet_img.pdf}}%
+    \put(0.32304779,-0.3146593){\color[rgb]{0.63921569,0.63921569,0.63921569}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Concat\end{tabular}}}}%
+    \put(0.32267426,-0.33599939){\color[rgb]{0.24705882,0.60784314,0.94117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(Conv, BN, ReLU) x 2 \end{tabular}}}}%
+    \put(0.32306017,-0.35988075){\color[rgb]{0.86666667,0.4,0.17254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPool \end{tabular}}}}%
+    \put(0.32267426,-0.38281293){\color[rgb]{0.65490196,0.8627451,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(Upsample, padding)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{unet_img.pdf}}%
+    \put(0.18179675,-0.53117787){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/2, N/2, 2C)\end{tabular}}}}%
+    \put(0.23951717,-0.65298601){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/4, N/4, 4C)\end{tabular}}}}%
+    \put(0.50566277,-0.80294962){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/16, N/16, 16C)\end{tabular}}}}%
+    \put(0.59968822,-0.65023295){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/4, N/4, 4C)\end{tabular}}}}%
+    \put(0.62954568,-0.52837286){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/2, N/2, 2C)\end{tabular}}}}%
+    \put(0.69656257,-0.34414779){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, F)\end{tabular}}}}%
+    \put(0.65230349,-0.32971363){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}(N, N, C)\end{tabular}}}}%
+    \put(0.67134103,-0.42165433){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\tiny Conv\end{tabular}}}}%
+    \put(0.44506358,-0.87881527){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}output scalars\end{tabular}}}}%
+    \put(0.20337589,-0.74772473){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(N/8, N/8, 4C)\end{tabular}}}}%
+    \put(0.2511038,-0.80369665){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(N/16, N/16, 8C)\end{tabular}}}}%
+    \put(0.12513597,-0.53117789){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(N/2, N/2, C)\end{tabular}}}}%
+    \put(0.38913038,-0.84894215){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(1, 1, 16C)\end{tabular}}}}%
+    \put(0.15905399,-0.65298597){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(N/4, N/4, 2C)\end{tabular}}}}%
+    \put(0.45205721,-0.82965856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny Avg Pool\end{tabular}}}}%
+    \put(0.45154739,-0.86266308){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny MLP\end{tabular}}}}%
+    \put(0.08394054,-0.34524604){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}(N, N, D)\end{tabular}}}}%
+    \put(0.14282581,-0.34524604){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, C)\end{tabular}}}}%
+    \put(0.30837963,-0.73255502){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}(N/8, N/8, 8C)\end{tabular}}}}%
+    \put(0.5583355,-0.74646137){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/8, N/8, 8C)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{unet_img.pdf}}%
+    \put(0.03606436,0.64421845){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, D)\end{tabular}}}}%
+    \put(0.15139336,0.64421845){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, C)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{unet_img.pdf}}%
+    \put(0.05244497,0.43499367){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/2, N/2, C)\end{tabular}}}}%
+    \put(0.20111121,0.43499367){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/2, N/2, 2C)\end{tabular}}}}%
+    \put(0.08383607,0.28955352){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/4, N/4, 2C)\end{tabular}}}}%
+    \put(0.26777582,0.28955352){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/4, N/4, 4C)\end{tabular}}}}%
+    \put(0.13765613,0.18009168){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/8, N/8, 4C)\end{tabular}}}}%
+    \put(0.68816,0.292826){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/4, N/4, 4C)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{unet_img.pdf}}%
+    \put(0.72632194,0.4338444){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/2, N/2, 2C)\end{tabular}}}}%
+    \put(0.79861296,0.6534207){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, F)\end{tabular}}}}%
+    \put(0.72410466,0.47300781){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N, N, C)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{unet_img.pdf}}%
+    \put(0.46353669,0.0241646){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}output scalars\end{tabular}}}}%
+    \put(0.51573924,0.04617897){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MLP\end{tabular}}}}%
+    \put(0.40874068,0.06399025){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(1, 1, 16C)\end{tabular}}}}%
+    \put(0.51573924,0.08104553){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Avg Pool\end{tabular}}}}%
+    \put(0.75673141,0.55965942){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Conv\end{tabular}}}}%
+    \put(0.83353716,0.38627544){\color[rgb]{0.63921569,0.63921569,0.63921569}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Concat\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{unet_img.pdf}}%
+    \put(0.83310137,0.36137909){\color[rgb]{0.24705882,0.60784314,0.94117647}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(Conv, BN, ReLU) x 2 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{unet_img.pdf}}%
+    \put(0.83355157,0.333518){\color[rgb]{0.86666667,0.4,0.17254902}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MaxPool,  \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{unet_img.pdf}}%
+    \put(0.83310137,0.30676423){\color[rgb]{0.65490196,0.8627451,0.1372549}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(Upsample, padding)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{unet_img.pdf}}%
+    \put(0.17798627,0.11444963){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/16, N/16, 8C)\end{tabular}}}}%
+    \put(0.57801502,0.11605994){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/16, N/16, 16C)\end{tabular}}}}%
+    \put(0.30823109,0.19653625){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/8, N/8, 8C)\end{tabular}}}}%
+    \put(0.63983047,0.18184264){\color[rgb]{0.8627451,0.8627451,0.82352941}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(N/8, N/8, 8C)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{unet_img.pdf}}%
+  \end{picture}%
+\endgroup%
