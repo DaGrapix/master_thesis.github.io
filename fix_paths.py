@@ -1,6 +1,6 @@
 import re
 
-def fix_html(input_file="export/index.html", output_file="index.fixed.html"):
+def fix_html(input_file="export/index.html", output_file="export/index.html"):
     with open(input_file, "r", encoding="utf-8") as f:
         html = f.read()
 
